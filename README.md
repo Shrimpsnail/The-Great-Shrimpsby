@@ -6,10 +6,12 @@ Welcome! to the public repository of the Great Shrimpsby resource pack, this is 
 The shaders are either extremely primitive or not mine to begin with and are in the MIT license
 
 Official download links:
-
+    https://www.curseforge.com/minecraft/texture-packs/the-great-shrimpsby
 
 Progress, WIP and features organization:
     https://trello.com/b/iLdnfLYN/the-great-shrimpsby
+    https://modrinth.com/resourcepack/the-great-shrimpsby
+    https://www.planetminecraft.com/texture-pack/the-great-shrimpsby/
 
 Credits: [Needs Links]
 
