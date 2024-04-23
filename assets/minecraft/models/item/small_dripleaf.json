@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle":"minecraft:item/dripleaf",
+    "layer0": "minecraft:item/dripleaf"
+  }
+}
