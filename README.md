@@ -7,11 +7,11 @@ The shaders are either extremely primitive or not mine to begin with and are in 
 
 Official download links:
     https://www.curseforge.com/minecraft/texture-packs/the-great-shrimpsby
+    https://modrinth.com/resourcepack/the-great-shrimpsby
+    https://www.planetminecraft.com/texture-pack/the-great-shrimpsby/
 
 Progress, WIP and features organization:
     https://trello.com/b/iLdnfLYN/the-great-shrimpsby
-    https://modrinth.com/resourcepack/the-great-shrimpsby
-    https://www.planetminecraft.com/texture-pack/the-great-shrimpsby/
 
 Credits: [Needs Links]
 
