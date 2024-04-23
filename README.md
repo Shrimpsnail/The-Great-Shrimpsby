@@ -5,6 +5,12 @@ Welcome! to the public repository of the Great Shrimpsby resource pack, this is 
 
 The shaders are either extremely primitive or not mine to begin with and are in the MIT license
 
+Official download links:
+
+
+Progress, WIP and features organization:
+    https://trello.com/b/iLdnfLYN/the-great-shrimpsby
+
 Credits: [Needs Links]
 
     Ewan Howell for helping with cem animations and new optifine features
