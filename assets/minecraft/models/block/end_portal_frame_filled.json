@@ -1,0 +1,59 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "block/end_portal",
+		"particle": "block/end_portal"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 13, 16],
+			"faces": {
+				"north": {"uv": [4, 9.5, 8, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [4, 9.5, 8, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [4, 9.5, 8, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [4, 9.5, 8, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [4, 1.5, 8, 9.5], "texture": "#0"},
+				"down": {"uv": [12, 8, 16, 16], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2, 13, 2],
+			"to": [14, 18, 14],
+			"faces": {
+				"north": {"uv": [10, 2.5, 13, 5], "texture": "#0"},
+				"east": {"uv": [10, 2.5, 13, 5], "texture": "#0"},
+				"south": {"uv": [10, 2.5, 13, 5], "texture": "#0"},
+				"west": {"uv": [10, 2.5, 13, 5], "texture": "#0"},
+				"up": {"uv": [13, 0, 16, 6], "texture": "#0"},
+				"down": {"uv": [4.25, 0, 4.75, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [14, 13, 2],
+			"to": [2, 18, 14],
+			"faces": {
+				"north": {"uv": [10, 2.5, 13, 5], "texture": "#0"},
+				"east": {"uv": [10, 2.5, 13, 5], "texture": "#0"},
+				"south": {"uv": [10, 2.5, 13, 5], "texture": "#0"},
+				"west": {"uv": [10, 2.5, 13, 5], "texture": "#0"},
+				"up": {"uv": [13, 0, 16, 6], "texture": "#0"},
+				"down": {"uv": [3.75, 0, 4, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.5, 19, 4.5],
+			"to": [11.5, 26, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 22.5, 8]},
+			"faces": {
+				"north": {"uv": [1.75, 3.5, 3.5, 7], "texture": "#0"},
+				"east": {"uv": [1.75, 0, 3.5, 3.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 1.75, 3.5], "texture": "#0"},
+				"west": {"uv": [3.5, 0, 1.75, 3.5], "texture": "#0"},
+				"up": {"uv": [0, 3.5, 1.75, 7], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 7, 1.75, 3.5], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

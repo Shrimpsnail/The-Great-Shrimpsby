@@ -1,0 +1,241 @@
+The Great Shrimpsby v0.2
+
+=======| BIOMES
+
+   :biolumnecent Crimson Forest
+      -crimson root variants(hoglin skull, crimson fan,some small crimson fungi)
+      -crimson log shelf fungi
+      -crimson log lights to orange
+      -droopy crimson wart block
+      -nylium "growing" into netherrack
+      -wart block lights
+
+   :biolumnecent Warped Forest
+      -"warped" crimson root variants
+      -twisting vine tweaks
+      -warped log shelf fungi
+      -warped log lights to bright blue
+      -droopy warped wart block
+      -nylium "growing" into netherrack
+      -blue shroomlight
+      -wart block lights
+
+   :creeper woods old growth taigas
+      -creeper woods grass, podzol and coarse dirt
+      -conections between each of the above
+      -ferns to popflowers
+      -brown shrooms to glowshrooms
+
+   :lavender fields (sunflower plains)
+      -grass, tall grass and sunflowers cahnged to lavender(sunflower is a slightly different color)
+      -purple skies
+
+   :flower forest
+      -cherry blossom oak and birch leaves
+      -fallen cerry blossom leaves
+      -cows to mooblooms of various flowers
+
+   :birch forest
+      -1.19 concept art birch leaves
+      -brighter colors
+
+   :old growth birch forest
+      -red leavews and grass
+      -sunset cows are present
+
+   :swamp
+      -greenish sky and fog
+      -reeds to cattails
+      -water buffalo cow variant
+      -muddy pig variant
+
+   :deep dark
+      -skulk emmissive spots
+      -skulk veins redesign
+      -skulk vegetation
+      -skulk sensot now with plant
+      -spider and bats to skulk beetles(aswell as rarely under y=0)
+
+=======| BLOCKS
+
+   :double slabs
+      -andesite,granite and diorite bricks (polished respective stone)
+      -purpur brick patterns(purpur)
+      -sandstone and redstone bricks (cut sandstone)
+      -rough sandstone and red sandstone (smooth sandstone)
+      -mossy cobbled deepslate (cobbled deepslate)
+      -mossiest cobblestone (mossy cobblestone)
+      -polished prismarine (prismarine)
+      -andesite, granite and diorite pillars (repective stones)
+      -dark prismarine pillar (dark prismarine)
+      -sandstone and red sandstone pillars (respective sandstone)
+      -stone pillar (stone)
+
+   :building blocks
+      -potted sapling bonsai
+      -spruced up rails
+      -enhanced anvils
+      -brewing stand to alquemy table
+      -enhanced brick and diorite walls 
+      -lava and powder snow cauldron tweaks 
+      -legless cauldrons in the air
+      -jungle wood composter
+      -crafting table redesign
+      -furnace redesign
+      -enhanced enchanting table model with ritual effects and random decor
+      -end portal redesign
+      -oak item frames
+      -single black candle to incense stick
+      -redesigned both lanterns
+      -mine lanterns
+      -japanese lanterns (flower forest and jungle biomes)
+      -nether wart to soul plant
+      -nether, red nether, normal brick and quartz brick top textures patterns ctm
+      -tnt to gunpowder barrel
+      -lighting rod weather vane
+      -piglin forge nether anvil
+      -nether fortress to basalt citadel in basalt deltas
+      -nether fortress to soul catacombs in soul sand valley
+      -prismarine bricks connected textures
+      -enhanced stone bricks, with consistant bricks and top patterns
+      -enhanced chest models
+      -special shipwreck/underwater chest models (with olliver and orville!)
+      -special ancient city stone chest models
+      -enderchest redesign
+      -shulker boxes complete redesign with base in new shulker:
+         -brown shulker box to wooden crate
+         -red shulker box to redstone toolbox
+         -greys and light blue shulker boxes to stone containers (stone, deepslate and prismarine respectively)
+         -purple shulker box to geode
+         -all other colors are based on shells (nautilus white, mussel black, etc...)
+      
+
+
+   :natural blocks
+      -enhanced 3d mushrooms
+      -cactus redesign
+      -dead bush variants
+      -grass to clovers in meadow biome
+      -tweaked darker dirt
+      -dark oak leaves to maplelike
+      -dead leaf decay
+      -randomly sized gras length sides
+      -large lilypad variants
+      -moss layer sides
+      -redesigned sugar cane
+      -soul root, crimson root variant for soul sand valleys
+      -several flower color variants
+      -fallen spruce leaves on taiga biomes
+      -grass variants
+      -kelp variants per ocean
+      -magma block simple biome variants
+      -purple end fire
+      -nether bricks at lava height glow
+      -nether brown mushrooms to basalt caps
+      -nether red mushrooms to soulshrooms
+      -seagrass reeds at sea level
+      -reeds as coral reefs in warm ocean biomes
+      -stone and clay changed in lush caves
+      -bee nests have a small model change
+
+=======| MOBS
+
+   -polar bear snowy(in snowy biomes) grizzly bear variant
+   -revised enderman
+   -fox tweaks
+   -redesigned iron golem
+   -toucan and southbird parrot variants
+   -tweaked pig
+   -piglin brute design change
+   -redesigned rabbits
+   -redesigned shulker based on arcticboi design
+   -skeleton tweaks and variants
+   -wither skeleton tweaks and variants
+   -pixel consistent slimes and variants
+   -spider tweaks
+   -cave spider to black widow
+   -squid and glow squid redesign
+   -striders to tortoises
+   -blaze redesign with variants
+   -dolphin variants
+   -phantom redesign
+   -wandering trader snowy styled
+   -wandering trader llama to a trader musk ox
+   -mountain cow hill variants
+   -piglin baby variant
+   -simple zombie piglin variants
+   -simple husk variant
+   -creeper to golem based on neytirix design with several biome based variant
+   -chicken to wild chicken with baby variant
+   -skeleton chicken jockey variant
+   -horse redesign to a Rhea bird (terror birds) - incomplete
+   -ghast redesign to a piglin hot air balloon
+
+
+=======| ITEMS
+
+   -double flowers item textures
+   -leather back books
+   -tweaked egg
+   -enhanced bow
+   -purple ender eyes and pearls
+   -dragon fruit enchanted golden apple (with eating particles)
+   -tweaked fishing rod
+   -tweaked flint and steel
+   -tweaked glow inc sac
+   -hot lava bucket
+   -mushroomy mushroom stew
+   -nether wart to soul
+   -translucent outer slime ball
+   -tweaked wheat and wheat seeds
+   -ghast tear in a flask
+   -throwing exp bottle
+   -tweaked dragon breath bottle
+   -honey bottle to jar
+   -debug stick to magic wand
+   -glowing spectral arrow
+   -arrow quiver stack size texture
+   -spectral quiver stack size texture
+   -tipped quiver stack size texture
+   -axolotl type and stage in bucket
+   -cookie jar stack sizer item
+   -bone meal is more dust like
+   -blaze powder, sugar, gunpowder, redstone dust, glowstone dust, and bone meal stack size dust bags
+   -each horn variant has their own texture
+   -grass bundle item texture
+   -tweaked string and ball of string stack sized texture
+   -name tag written, jeb and inverted item textures
+   -tweaked all materials (sticks, ingots)
+   -redesigned diamond and emerald
+   -redesigned all tools
+   -Retextured several items
+   -a specific potion texture for each variant and level of potions
+   -new trident model and texture
+
+
+=======| OTHERS
+
+   -apple eating particles
+   -browner leather
+   -black signal campfire smoke
+   -changed chest sounds
+   -enhanced hud icons
+   -end moon
+   
+   :fog and sky
+      -desert yellow fog
+      -badlands orange fog
+      -mangrove swamp green fog
+
+   -tweaked lightmaps
+   -desaturated water
+   -new enhanced boat models for each type (does not apply to chest boats)
+   -redesigned the end crystal
+   -differentiated lectern and enchanting books 
+   -diamonds are bluer
+   -GUI pt.1
+      -recipe book
+      -survival inventory
+      -crafting table
+      -chest and large chest
+      -furnace

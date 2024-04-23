@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "minecraft:block/warped_fungus"
+      },
+      {
+        "model": "minecraft:block/warped_fungus2"
+      },
+      {
+        "model": "minecraft:block/warped_fungus3"
+      },
+      {
+        "model": "minecraft:block/warped_fungus_tall"
+      },
+      {
+        "model": "minecraft:block/warped_fungus_tall2"
+      },
+      {
+        "model": "minecraft:block/warped_fungus_tall3"
+      },
+      {
+        "model": "minecraft:block/warped_fungus_large"
+      },
+      {
+        "model": "minecraft:block/warped_fungus_large2"
+      },
+      {
+        "model": "minecraft:block/warped_fungus_large3"
+      }
+
+
+
+    ]
+  }
+}

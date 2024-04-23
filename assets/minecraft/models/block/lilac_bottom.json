@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_crimson",
+  "textures": {
+    "cross": "minecraft:block/lilac",
+    "particle": "minecraft:block/lilac_item"
+  }
+}

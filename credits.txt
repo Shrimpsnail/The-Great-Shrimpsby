@@ -1,0 +1,22 @@
+Special thanks to:
+
+    Ewan Howell for helping with cem animations and new optifine features
+    https://ewanhowell.com/
+
+    gillsbills for mc earth textures
+    https://www.planetminecraft.com/member/gillsbills/
+
+    6_28318530717958 for the dead leaf decay 
+    https://www.planetminecraft.com/texture-pack/visual-leaf-decay/
+
+    althenry for the sugarcane idea
+    https://www.planetminecraft.com/texture-pack/henry-s-better-sugar-cane/
+
+    derp for help with grass
+    https://www.planetminecraft.com/member/sexy_stev/
+
+    fayer3#2332 the creator of the layered cloud shader
+
+    Reijvi#2023 for commissioning and allowing, and Godlander#1020 for developing the furnace shader
+    https://legacy.curseforge.com/members/Reijvi/projects
+    https://github.com/Godlander

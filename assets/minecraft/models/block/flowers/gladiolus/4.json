@@ -1,0 +1,95 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/tinted_cross",
+	"ambientocclusion": false,
+	"texture_size": [16, 32],
+	"textures": {
+		"2": "block/flowers/gladiolus/4",
+		"particle": "block/flowers/gladiolus/4"
+	},
+	"elements": [
+		{
+			"from": [12.5, 0, 8.5],
+			"to": [12.5, 16, 15.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [12.5, 8, 12]},
+			"faces": {
+				"east": {"uv": [9, 8, 16, 16], "texture": "#2"},
+				"west": {"uv": [9, 8, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [12.5, 0, 8.5],
+			"to": [12.5, 16, 15.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [12.5, 8, 12]},
+			"faces": {
+				"east": {"uv": [9, 8, 16, 16], "texture": "#2"},
+				"west": {"uv": [9, 8, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.5, 0, -0.5],
+			"to": [7.5, 16, 6.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.5, 8, 3]},
+			"faces": {
+				"east": {"uv": [9, 8, 16, 16], "texture": "#2"},
+				"west": {"uv": [9, 8, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.5, 0, -0.5],
+			"to": [7.5, 16, 6.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [7.5, 8, 3]},
+			"faces": {
+				"east": {"uv": [9, 8, 16, 16], "texture": "#2"},
+				"west": {"uv": [9, 8, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [3.5, 0, 8.5],
+			"to": [3.5, 24, 15.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [3.5, 8, 12]},
+			"faces": {
+				"east": {"uv": [0, 4.5, 7, 16], "texture": "#2"},
+				"west": {"uv": [0, 4.5, 7, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [3.5, 0, 8.5],
+			"to": [3.5, 24, 15.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [3.5, 8, 12]},
+			"faces": {
+				"east": {"uv": [0, 4.5, 7, 16], "texture": "#2"},
+				"west": {"uv": [0, 4.5, 7, 16], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [12.5, 8, 12],
+			"color": 0,
+			"shade": false,
+			"children": [0, 1]
+		},
+		{
+			"name": "group",
+			"origin": [12.5, 8, 12],
+			"color": 0,
+			"shade": false,
+			"children": [2, 3]
+		},
+		{
+			"name": "group",
+			"origin": [12.5, 8, 12],
+			"color": 0,
+			"shade": false,
+			"children": [4, 5]
+		}
+	]
+}

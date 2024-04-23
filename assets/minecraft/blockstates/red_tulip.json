@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/flowers/red_pansy/1"},
+      {"model": "minecraft:block/flowers/red_pansy/2"},
+      {"model": "minecraft:block/flowers/red_pansy/3"}
+
+
+    ]
+  }
+}

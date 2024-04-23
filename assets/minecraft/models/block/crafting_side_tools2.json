@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"0": "block/crafting_side_tools2",
+		"particle": "block/crafting_side_tools2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "north"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "north"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "north"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "north"}
+			}
+		}
+	]
+}

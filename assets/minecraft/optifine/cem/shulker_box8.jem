@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/shulker/shulker_light_blue.png",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, -7, 0],
+			"boxes": [
+				{"coordinates": [-8, 15, -8, 16, 8, 16], "textureOffset": [64, 0], "sizeAdd": 0.02},
+				{"coordinates": [-8.5, 13.5, -8.5, 17, 10, 17], "textureOffset": [60, 34]}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 16, 8, 16], "textureOffset": [0, 0]},
+				{"coordinates": [-8.5, -0.5, -8.5, 17, 9, 17], "textureOffset": [0, 24]}
+			]
+		}
+	]
+}

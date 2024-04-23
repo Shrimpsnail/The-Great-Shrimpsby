@@ -1,0 +1,193 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "creeper_big.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0],
+			"submodels": [
+				{
+					"id": "creeper",
+					"invertAxis": "xy",
+					"translate": [0, 12.5, 0],
+					"boxes": [
+						{"coordinates": [-6, -10.5, -6, 12, 25, 12], "textureOffset": [0, 0]}
+					],
+					"submodels": [
+						{
+							"id": "sprouts",
+							"invertAxis": "xy",
+							"translate": [0, -12.5, 0],
+							"submodels": [
+								{
+									"id": "s",
+									"invertAxis": "xy",
+									"translate": [6, 11.75, 1],
+									"rotate": [0, 0, -40],
+									"boxes": [
+										{"coordinates": [-2, -1.75, 0, 6, 9, 0], "textureOffset": [48, 17]}
+									]
+								},
+								{
+									"id": "s2",
+									"invertAxis": "xy",
+									"mirrorTexture": "u",
+									"translate": [-6, 26, 5],
+									"rotate": [0, 0, 17.5],
+									"boxes": [
+										{"coordinates": [-4, -2, 0, 6, 9, 0], "textureOffset": [48, 17]}
+									]
+								},
+								{
+									"id": "s3",
+									"invertAxis": "xy",
+									"translate": [-6, 25, 0],
+									"rotate": [0, 0, 5],
+									"boxes": [
+										{"coordinates": [-6, 0, 0, 8, 13, 0], "textureOffset": [48, 2]}
+									]
+								},
+								{
+									"id": "s4",
+									"invertAxis": "xy",
+									"translate": [2.5, 27, 2],
+									"rotate": [0, 45, 0],
+									"boxes": [
+										{"coordinates": [-1.5, 0, 0, 3, 6, 0], "textureOffset": [36, 6]}
+									]
+								}
+							]
+						},
+						{
+							"id": "plant",
+							"invertAxis": "xy",
+							"translate": [-6.25, 2, 0],
+							"submodels": [
+								{
+									"id": "bone",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"rotate": [0, -180, 0],
+									"boxes": [
+										{"coordinates": [0, -8.5, -6.5, 0, 21, 13], "textureOffset": [13, 30]}
+									]
+								},
+								{
+									"id": "bone2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"rotate": [0, -180, 0],
+									"boxes": [
+										{"coordinates": [-6, -8.5, 6.5, 6, 17, 0], "textureOffset": [1, 47]}
+									]
+								}
+							]
+						},
+						{
+							"id": "tippies",
+							"invertAxis": "xy",
+							"translate": [0, -12.5, 0],
+							"submodels": [
+								{
+									"id": "tip1",
+									"invertAxis": "xy",
+									"translate": [-5, 3.5, -5],
+									"boxes": [
+										{"coordinates": [-3, -3.5, -3, 5, 9, 5], "textureOffset": [44, 50]}
+									]
+								},
+								{
+									"id": "tip2",
+									"invertAxis": "xy",
+									"translate": [5, 3.5, -5],
+									"boxes": [
+										{"coordinates": [-2, -3.5, -3, 5, 9, 5], "textureOffset": [44, 36]}
+									]
+								},
+								{
+									"id": "tip3",
+									"invertAxis": "xy",
+									"translate": [-5, 3.5, 5],
+									"boxes": [
+										{"coordinates": [-3, -3.5, -2, 5, 9, 5], "textureOffset": [44, 36]}
+									]
+								},
+								{
+									"id": "tip4",
+									"invertAxis": "xy",
+									"mirrorTexture": "u",
+									"translate": [5, 3.5, 5],
+									"boxes": [
+										{"coordinates": [-2, -3.5, -2, 5, 9, 5], "textureOffset": [44, 36]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.time": "(var.time + 1 * limb_speed * 30 * frame_time)"
+				},
+				{
+					"tip1.tz": "( limb_speed * sin(var.time) * 5)-5",
+					"tip1.ty": "min( limb_speed * cos(var.time) * 5, 0) -3.5",
+					"tip1.rx": "min( limb_speed * cos(var.time) * 2, 0) / 2",
+					"tip4.tz": "( limb_speed * sin(var.time) * 5)+5",
+					"tip4.ty": "min( limb_speed * cos(var.time) * 5, 0) -3.5",
+					"tip4.rx": "-min( limb_speed * cos(var.time) * 2, 0) / 2",
+					"tip2.tz": "( limb_speed * sin(var.time+10) * 5)-5",
+					"tip2.ty": "min( limb_speed * cos(var.time+10) * 5, 0) -3.5",
+					"tip2.rx": "min( limb_speed * cos(var.time+10) * 2, 0) / 2",
+					"tip3.tz": "( limb_speed * sin(var.time+10) * 5)+5",
+					"tip3.ty": "min( limb_speed * cos(var.time+10) * 5, 0) -3.5",
+					"tip3.rx": "-min( limb_speed * cos(var.time+10) * 2, 0) / 2"
+				},
+				{
+					"s.rz": "cos((age+random(id) * 10)/15)/5-torad(40)",
+					"s.rx": "-sin((age+random(id) * 10)/15) / 4 * limb_speed -( limb_speed)",
+					"s2.rz": "sin((age+random(id))/15)/5",
+					"s2.rx": "-cos((age+random(id))/15) / 4 * limb_speed -( limb_speed)",
+					"s3.rz": "-cos((age+random(id))/25)/15",
+					"s3.rx": "-cos((age+random(id))/15) / 4 * limb_speed -( limb_speed)",
+					"s4.rz": "-sin((age+random(id))/25)/15",
+					"s4.rx": "-cos((age+random(id))/15) / 4 * limb_speed -( limb_speed)"
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-2, -6, -4]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [2, -6, -4]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-2, -6, 4]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [2, -6, 4]
+		}
+	]
+}

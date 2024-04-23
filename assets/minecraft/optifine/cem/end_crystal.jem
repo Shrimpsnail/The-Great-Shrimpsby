@@ -1,0 +1,136 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/end_crystal/end_crystal.png",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"rotate": [-180, 0, 0],
+			"submodels": [
+				{
+					"id": "anti_rot",
+					"invertAxis": "xy",
+					"translate": [0, -3, 0],
+					"rotate": [0, 0, -180],
+					"boxes": [
+						{"coordinates": [-8, -19, -8, 16, 16, 16], "textureOffset": [0, 0], "sizeAdd": 0.02},
+						{"coordinates": [-9, -6, -9, 18, 8, 18], "textureOffset": [56, 14]}
+					],
+					"submodels": [
+						{
+							"id": "crystal",
+							"invertAxis": "xy",
+							"translate": [0.33333, 22.41667, 0.16667],
+							"submodels": [
+								{
+									"id": "main",
+									"invertAxis": "xy",
+									"translate": [-0.33333, -19.41667, -0.16667],
+									"submodels": [
+										{
+											"id": "test2",
+											"invertAxis": "xy",
+											"mirrorTexture": "u",
+											"translate": [0, 0, 0],
+											"boxes": [
+												{"coordinates": [-4, 9, -4, 8, 20, 8], "textureOffset": [0, 36]}
+											],
+											"submodels": [
+												{
+													"id": "base_sub_9",
+													"invertAxis": "xy",
+													"translate": [0, 0, 0],
+													"boxes": [
+														{"coordinates": [1, 11, -6, 6, 13, 7], "textureOffset": [56, 44]},
+														{"coordinates": [-7, 13, 1, 6, 13, 6], "textureOffset": [32, 45]}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "shards",
+									"invertAxis": "xy",
+									"translate": [-0.33333, -19.41667, -0.16667],
+									"submodels": [
+										{
+											"id": "shard",
+											"invertAxis": "xy",
+											"translate": [0, 19, 11.5],
+											"boxes": [
+												{"coordinates": [-1.5, -5.5, -1.5, 3, 11, 3], "textureOffset": [104, 40]}
+											]
+										},
+										{
+											"id": "shard3",
+											"invertAxis": "xy",
+											"translate": [0, 19, -10.5],
+											"boxes": [
+												{"coordinates": [-1.5, -5.5, -1.5, 3, 11, 3], "textureOffset": [104, 40]}
+											]
+										},
+										{
+											"id": "shard2",
+											"invertAxis": "xy",
+											"translate": [-11.5, 19, 0],
+											"boxes": [
+												{"coordinates": [-1.5, -5.5, -1.5, 3, 11, 3], "textureOffset": [104, 40]}
+											]
+										},
+										{
+											"id": "shard4",
+											"invertAxis": "xy",
+											"translate": [11.5, 19, 0],
+											"boxes": [
+												{"coordinates": [-1.5, -5.5, -1.5, 3, 11, 3], "textureOffset": [104, 40]}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.ty": 8,
+					"this.sy": 0.5,
+					"this.sz": 0.5,
+					"this.sx": 0.5,
+					"this.rx": "0"
+				},
+				{
+					"main.ry": "sin(time/32)*4 +time/4",
+					"shards.ry": "sin(-time/32)*4 -time/4",
+					"main.ty": "sin(time/12)*3+20",
+					"shard.tz": "cos(time/32)*4 - 16",
+					"shard2.tx": "cos(time/32)*4 - 16",
+					"shard3.tz": "-cos(time/32)*4 + 16",
+					"shard4.tx": "-cos(time/32)*4 + 16"
+				},
+				{
+					"shard4.ty": "-cos(time/6)*3-20",
+					"shard2.ty": "cos(time/6)*3-20",
+					"shard3.ty": "-sin(time/6)*3-20"
+				}
+			]
+		},
+		{
+			"part": "cube",
+			"id": "cube",
+			"invertAxis": "xy",
+			"translate": [0, -10, 0]
+		},
+		{
+			"part": "glass",
+			"id": "glass",
+			"invertAxis": "xy",
+			"translate": [0, -10, 0]
+		}
+	]
+}

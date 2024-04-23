@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle":"minecraft:item/azure_bluet",
+    "layer0": "minecraft:item/azure_bluet"
+  }
+}

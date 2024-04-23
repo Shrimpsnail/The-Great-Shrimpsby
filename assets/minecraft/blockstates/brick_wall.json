@@ -1,0 +1,102 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_post"
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_side_a",
+        "y": 180
+        
+      },
+      "when": {
+        "north": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_side_a",
+        
+        "y": -90
+      },
+      "when": {
+        "east": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_side_b",
+        "y": 180
+        
+      },
+      "when": {
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_side_b",
+        
+        "y": -90
+      },
+      "when": {
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_side_tb"
+        
+      },
+      "when": {
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_side_ta",
+        
+        "y": -90
+      },
+      "when": {
+        "east": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_side_ta"
+        
+      },
+      "when": {
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_side_tb",
+        
+        "y": -90
+      },
+      "when": {
+        "west": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/brick_wall_ball"
+      },
+      "when": {
+        "west": "tall|low",
+        "east": "tall|low",
+        "north": "tall|low",
+        "south": "tall|low"
+      }
+    }
+
+  ]
+}

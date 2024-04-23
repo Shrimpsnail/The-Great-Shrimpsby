@@ -1,0 +1,209 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "enchanting_table_book.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "cover_left",
+			"id": "cover_left",
+			"invertAxis": "xy",
+			"translate": [-7, -5, 0]
+		},
+		{
+			"part": "cover_right",
+			"id": "cover_right",
+			"invertAxis": "xy",
+			"translate": [7, -5, 0]
+		},
+		{
+			"part": "book_spine",
+			"id": "book_spine",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"submodels": [
+				{
+					"id": "book",
+					"invertAxis": "xy",
+					"translate": [0, 3, 2],
+					"boxes": [
+						{
+							"coordinates": [-1, -6, 0, 2, 12, 0],
+							"uvNorth": [9, 12, 11, 0],
+							"uvEast": [9, 12, 9, 0],
+							"uvSouth": [9, 24, 11, 12],
+							"uvWest": [11, 12, 11, 0],
+							"uvUp": [11, 0, 9, 0],
+							"uvDown": [13, 0, 11, 0]
+						}
+					],
+					"submodels": [
+						{
+							"id": "cover_left2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [-1, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-9, -6, 0, 9, 12, 0],
+									"uvNorth": [0, 12, 9, 0],
+									"uvSouth": [9, 24, 0, 12]
+								}
+							]
+						},
+						{
+							"id": "cover_right2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [1, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [0, -6, 0, 9, 12, 0],
+									"uvNorth": [11, 12, 20, 0],
+									"uvSouth": [20, 24, 11, 12]
+								}
+							]
+						},
+						{
+							"id": "pages_left2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0.9],
+							"boxes": [
+								{
+									"coordinates": [-8.02, -5, -0.9, 8, 10, 1],
+									"uvNorth": [60, 12, 68, 22],
+									"uvEast": [65, 12, 66, 22],
+									"uvSouth": [77, 22, 69, 12],
+									"uvWest": [60, 12, 61, 22],
+									"uvUp": [68, 14, 65, 12],
+									"uvDown": [63, 14, 62, 16]
+								}
+							],
+							"submodels": [
+								{
+									"id": "mark",
+									"invertAxis": "xy",
+									"translate": [-5, 5, -0.4],
+									"boxes": [
+										{
+											"coordinates": [0, 0, 0, 3, 5, 0],
+											"uvNorth": [24, 6, 21, 1],
+											"uvEast": [65, 12, 66, 22],
+											"uvSouth": [24, 6, 21, 1],
+											"uvWest": [61, 12, 62, 22],
+											"uvUp": [68, 14, 65, 12],
+											"uvDown": [67, 13, 66, 15]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "pages_right2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0.9],
+							"submodels": [
+								{
+									"id": "rotation2",
+									"invertAxis": "xy",
+									"translate": [2.5, 0, -0.4],
+									"rotate": [0, -180, 0],
+									"boxes": [
+										{
+											"coordinates": [-5.52, -5, -0.5, 8, 10, 1],
+											"uvNorth": [77, 11, 69, 1],
+											"uvEast": [66, 12, 67, 22],
+											"uvSouth": [68, 22, 60, 12],
+											"uvWest": [60, 12, 61, 22],
+											"uvUp": [66, 15, 65, 18],
+											"uvDown": [63, 13, 61, 17]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "flipping_page_left2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0.9],
+							"boxes": [
+								{
+									"coordinates": [-8, -5, 0.1, 8, 10, 0],
+									"uvNorth": [77, 11, 69, 1],
+									"uvEast": [75, 12, 75, 22],
+									"uvSouth": [95, 11, 87, 1],
+									"uvWest": [83, 12, 83, 22],
+									"uvUp": [83, 12, 75, 12],
+									"uvDown": [91, 12, 83, 12]
+								}
+							]
+						},
+						{
+							"id": "flipping_page_right2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0.9],
+							"submodels": [
+								{
+									"id": "rotation",
+									"invertAxis": "xy",
+									"translate": [2.5, 0, 0.1],
+									"rotate": [0, -180, 0],
+									"boxes": [
+										{
+											"coordinates": [-5.5, -5, 0, 8, 10, 0],
+											"uvNorth": [69, 11, 77, 1],
+											"uvEast": [78, 12, 78, 22],
+											"uvSouth": [86, 11, 78, 1],
+											"uvWest": [86, 12, 86, 22],
+											"uvUp": [86, 12, 78, 12],
+											"uvDown": [94, 12, 86, 12]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"book.tz": "4-cover_left.ry",
+					"cover_left2.ry": "torad(-90) + -cover_left.ry",
+					"cover_right2.ry": "torad(-90) + -cover_right.ry",
+					"pages_left2.ry": "torad(-90) + -pages_left.ry",
+					"pages_left2.tz": "-pages_left.ry/1.25",
+					"pages_right2.ry": "torad(90) + -pages_right.ry",
+					"pages_right2.tz": "pages_right.ry/1.25",
+					"flipping_page_left2.ry": "torad(-90) + -flipping_page_left.ry",
+					"flipping_page_left2.tz": "-pages_left.ry/1.25",
+					"flipping_page_right2.ry": "torad(90) + -flipping_page_right.ry",
+					"flipping_page_right2.tz": "pages_right.ry/1.25",
+					"book.rx": "0.5+cover_left.ry/5"
+				}
+			]
+		},
+		{
+			"part": "pages_left",
+			"id": "pages_left",
+			"invertAxis": "xy",
+			"translate": [-5, -5, 1.075]
+		},
+		{
+			"part": "pages_right",
+			"id": "pages_right",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0.125]
+		},
+		{
+			"part": "flipping_page_left",
+			"id": "flipping_page_left",
+			"invertAxis": "xy",
+			"translate": [-5, -5, 2.075]
+		},
+		{
+			"part": "flipping_page_right",
+			"id": "flipping_page_right",
+			"invertAxis": "xy",
+			"translate": [0, -5, 2.125]
+		}
+	]
+}

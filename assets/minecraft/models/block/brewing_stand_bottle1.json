@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "block/brewing_stand",
+		"stand": "block/brewing_stand"
+	},
+	"elements": [
+		{
+			"from": [10.01, 5.51, 6.01],
+			"to": [14.99, 9.49, 10.99],
+			"rotation": {"angle": 0, "axis": "x", "origin": [4, 6.5, 4]},
+			"faces": {
+				"north": {"uv": [16, 11, 13.5, 13], "texture": "#stand"},
+				"east": {"uv": [13.5, 11, 16, 13], "texture": "#stand"},
+				"south": {"uv": [16, 11, 13.5, 13], "texture": "#stand"},
+				"west": {"uv": [13.5, 11, 16, 13], "texture": "#stand"},
+				"up": {"uv": [13.5, 13, 16, 15.5], "rotation": 270, "texture": "#stand"},
+				"down": {"uv": [11, 13, 13.5, 15.5], "rotation": 270, "texture": "#stand"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "potion2",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "minecraft:block/red_mushroom"
+      },
+      {
+        "model": "minecraft:block/red_mushroom2"
+      },
+      {
+        "model": "minecraft:block/red_mushroom3"
+      },
+      {
+        "model": "minecraft:block/red_mushroom_tall"
+      },
+      {
+        "model": "minecraft:block/red_mushroom_tall2"
+      },
+      {
+        "model": "minecraft:block/red_mushroom_tall3"
+      },
+      {
+        "model": "minecraft:block/red_mushroom_large"
+      },
+      {
+        "model": "minecraft:block/red_mushroom_large2"
+      },
+      {
+        "model": "minecraft:block/red_mushroom_large3"
+      }
+
+    ]
+  }
+}

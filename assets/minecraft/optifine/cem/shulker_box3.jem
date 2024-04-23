@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/shulker/shulker_box_red.png",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 16, 8, 16], "textureOffset": [0, 24]},
+				{"coordinates": [-8, 4, -8, 16, 0, 16], "textureOffset": [80, 0]},
+				{"coordinates": [-7, 2, 2, 5, 5, 5], "textureOffset": [108, 54]},
+				{"coordinates": [1, 1, -7, 6, 6, 6], "textureOffset": [104, 42]}
+			],
+			"submodels": [
+				{
+					"id": "right_wing",
+					"invertAxis": "xy",
+					"translate": [-8, 8, 0],
+					"boxes": [
+						{"coordinates": [0, 0, -8, 8, 8, 16], "textureOffset": [0, 0]}
+					],
+					"submodels": [
+						{
+							"id": "r_pocket",
+							"invertAxis": "xy",
+							"translate": [4, 0, 0],
+							"boxes": [
+								{"coordinates": [-3, -2, -7, 7, 4, 14], "textureOffset": [76, 16]},
+								{"coordinates": [-2, 0, 1, 5, 5, 5], "textureOffset": [32, 0]}
+							],
+							"submodels": [
+								{
+									"id": "bone",
+									"invertAxis": "xy",
+									"translate": [0.5, 2.5, -1.5],
+									"rotate": [-90, 0, 0],
+									"boxes": [
+										{"coordinates": [-2.5, -2.5, -2.5, 5, 5, 5], "textureOffset": [32, 0]}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "left_wing",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [8, 8, 0],
+					"boxes": [
+						{"coordinates": [-8, 0, -8, 8, 8, 16], "textureOffset": [0, 0]}
+					],
+					"submodels": [
+						{
+							"id": "l_pocket",
+							"invertAxis": "xy",
+							"translate": [-4, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, -2, -7, 7, 4, 14], "textureOffset": [48, 6]},
+								{"coordinates": [0, 0, -6, 2, 5, 6], "textureOffset": [0, 0]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"right_wing.rz": "-(lid.ty-24)/4",
+					"r_pocket.rz": "-right_wing.rz",
+					"left_wing.rz": "(lid.ty-24)/4",
+					"l_pocket.rz": "-left_wing.rz"
+				}
+			]
+		}
+	]
+}

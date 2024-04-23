@@ -1,0 +1,56 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/slime/slime_mid.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -48, 0],
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 16, 16, 16], "textureOffset": [0, 32]}
+			],
+			"submodels": [
+				{
+					"id": "eye",
+					"invertAxis": "xy",
+					"translate": [-3, 8, -3],
+					"boxes": [
+						{"coordinates": [-2, -2, -2, 4, 4, 4], "textureOffset": [0, 40]}
+					]
+				},
+				{
+					"id": "eye2",
+					"invertAxis": "xy",
+					"translate": [4, 8, 4],
+					"boxes": [
+						{"coordinates": [-2, -2, -2, 4, 4, 4], "textureOffset": [0, 40]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"body.sx": "0.5",
+					"body.sy": "0.5",
+					"body.sz": "0.5"
+				},
+				{
+					"var.x": "age + random(id) * 1000",
+					"eye.ty": "sin(var.x/15)/2-6-((random(id)-0.5)*4)",
+					"eye.tz": "(random(id)-0.5)*4*2",
+					"eye.ry": "sin(var.x/15)/15",
+					"eye.rz": "cos(var.x/14)/15",
+					"eye.rx": "-sin(var.x/16)/15"
+				},
+				{
+					"eye2.ty": "cos(var.x/15)/2-8",
+					"eye2.tz": "-(random(id)-0.5)*4*2",
+					"eye2.ry": "-sin(var.x/16)/15",
+					"eye2.rz": "sin(var.x/13)/15",
+					"eye2.rx": "cos(var.x/15)/15"
+				}
+			]
+		}
+	]
+}

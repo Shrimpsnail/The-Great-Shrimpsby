@@ -1,0 +1,148 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_post"
+      },
+      "when": {
+        "OR":
+        [
+          {"up": "true","south": "none","north": "low","east": "none","west": "none"},
+          {"up": "true","south": "low","north": "none","east": "none","west": "none"},
+          {"up": "true","south": "low","north": "low","east": "none","west": "none"},
+
+          {"up": "true","south": "none","north": "none","east": "none","west": "none"}
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_post"
+      },
+      "when": {
+        "OR":
+        [
+          {"up": "true","south": "none","north": "low","east": "low","west": "none"},
+          {"up": "true","south": "low","north": "none","east": "none","west": "low"},
+          {"up": "true","south": "none","north": "low","east": "none","west": "low"},
+          {"up": "true","south": "low","north": "none","east": "low","west": "none"}
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_base"
+      },
+      "when": {
+        "OR":
+        [
+          {"up": "true","south": "none","north": "low","east": "low","west": "low"},
+          {"up": "true","south": "low","north": "none","east": "low","west": "low"},
+          {"up": "true","south": "low","north": "low","east": "none","west": "low"},
+          {"up": "true","south": "low","north": "low","east": "low","west": "none"}
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_post",
+        "y": 90
+      },
+      "when": {
+        "OR":
+        [
+          {"up": "true","south": "none","north": "none","east": "low","west": "low"},
+          {"up": "true","south": "none","north": "none","east": "none","west": "low"},
+          {"up": "true","south": "none","north": "none","east": "low","west": "none"}
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_base"
+      },
+      "when": {
+        "OR":
+        [
+          {"up": "true","south": "tall"},
+          {"up": "true","north": "tall"},
+          {"up": "true","east": "tall"},
+          {"up": "true","west": "tall"}
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_side"
+      },
+      "when": {
+        "north": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_side",
+        "y": 90
+      },
+      "when": {
+        "east": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_side",
+        "y": 180
+      },
+      "when": {
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_side",
+        "y": 270
+      },
+      "when": {
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_side_tall_a",
+        "y": -90
+      },
+      "when": {
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_side_tall_b",
+        "y": -90
+        
+      },
+      "when": {
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_side_tall_a",
+        "y": 0
+      },
+      "when": {
+        "east": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite_wall_side_tall_b",
+        "y": 0
+        
+      },
+      "when": {
+        "west": "tall"
+      }
+    }
+  ]
+}

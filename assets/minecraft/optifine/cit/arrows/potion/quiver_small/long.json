@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "./bundle_color",
+        "layer1": "./bundle_overlay"
+    }
+}

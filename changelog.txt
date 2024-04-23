@@ -1,0 +1,68 @@
+The Great Shrimpsby v0.3 - 1.19.4 
+
+   =======| MAJOR
+	-GUI pt.1
+      -recipe book
+      -survival inventory
+      -crafting table
+      -chest and large chest
+      -furnace
+   -Retextured several items
+   -a specific potion texture for each variant and level of potions
+   -furnace redesign
+   -axolotl cit buckets 2
+   -new trident model and texture
+	
+   =======| MINOR
+	-cloud shader by Fayer3
+
+   =======| FIXES
+	-fern in pot is correct
+	-cauldron uv shenanigans
+   -stone brick stairs
+
+The Great Shrimpsby v0.2.1 - 1.19.4 (modrinth)
+
+   =======| FIXES
+
+      -gui is back
+
+
+The Great Shrimpsby v0.2 - 1.19.4
+
+   =======| MAJOR
+
+      -redesigned diamond and "blued" diamond colors
+      -redesigned emerald
+      -redesigned tools and weapons 
+      -horses bird conversion pt.1 - normal horses to Rhea birds (terror birds)
+      -ghast redesign to a piglin air balloon
+      -remade the tortoise strider design
+
+   =======| MINOR
+
+      -tweaked iron colors
+      -tweaked ingots
+
+
+The Great Shrimpsby v0.1.1 - 1.19.2
+
+
+   =======| MINOR
+
+      -tweaked and differentiated lectern and enchanting books
+      -removed log variants
+      -removed snow overlay
+
+      -swamps and snowy biomes framerate should be dramatically increased
+
+
+   =======| FIXES
+
+      -heads appearing variants they shouldn't 
+      -creeper heads broken
+      -lectern book broken
+      -enchanting book cover wrong way around
+      -cleaned seagrass and vine models 
+      -swamp pig eyes now consistent with other pig eyes
+

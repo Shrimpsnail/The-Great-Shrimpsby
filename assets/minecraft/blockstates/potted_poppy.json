@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/flower_pots/poppy/potted_poppy"},
+      {"model": "minecraft:block/flower_pots/poppy/potted_poppy2"}
+
+
+    ]
+  }
+}

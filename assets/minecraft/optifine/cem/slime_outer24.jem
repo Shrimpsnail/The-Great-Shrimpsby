@@ -1,0 +1,204 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/slime/slime_large.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -96, 0],
+			"boxes": [
+				{"coordinates": [-16, 0, -16, 32, 32, 32], "textureOffset": [0, 64]}
+			],
+			"submodels": [
+				{
+					"id": "face",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "eye",
+							"invertAxis": "xy",
+							"translate": [-5, 8, 0.5],
+							"boxes": [
+								{"coordinates": [-2, -2, -3, 5, 5, 5], "textureOffset": [12, 86]}
+							]
+						},
+						{
+							"id": "eye2",
+							"invertAxis": "xy",
+							"translate": [4, 8, 4],
+							"boxes": [
+								{"coordinates": [2, -2, -6.5, 5, 5, 5], "textureOffset": [12, 86]}
+							]
+						},
+						{
+							"id": "mouth",
+							"invertAxis": "xy",
+							"translate": [4, 8, -4],
+							"boxes": [
+								{"coordinates": [-4, -2, 0, 4, 4, 4], "textureOffset": [0, 83]}
+							]
+						}
+					]
+				},
+				{
+					"id": "skele",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"rotate": [15, 0, 27.5],
+					"submodels": [
+						{
+							"id": "right_l",
+							"invertAxis": "xy",
+							"translate": [9.69723, 5.83359, -10.48376],
+							"rotate": [17.5, 0, 12.5],
+							"boxes": [
+								{"coordinates": [-1, -6, -1, 2, 12, 2], "textureOffset": [0, 16]}
+							]
+						},
+						{
+							"id": "left_l",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [3.93553, 3.74657, -12.53905],
+							"rotate": [30.59327, 4.97469, -32.41819],
+							"boxes": [
+								{"coordinates": [-1, -6, -1, 2, 12, 2], "textureOffset": [0, 16]}
+							]
+						},
+						{
+							"id": "right_a",
+							"invertAxis": "xy",
+							"translate": [16.44439, 13.83799, 4.69684],
+							"rotate": [-6.66067, -3.45533, 2.70113],
+							"boxes": [
+								{"coordinates": [-1, -6, -1, 2, 12, 2], "textureOffset": [40, 16]}
+							]
+						},
+						{
+							"id": "left_a",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [3.71084, 16.12147, 6.1443],
+							"rotate": [-10, -20, -17.5],
+							"boxes": [
+								{"coordinates": [-1, -6, -1, 2, 12, 2], "textureOffset": [40, 16]}
+							]
+						},
+						{
+							"id": "body2",
+							"invertAxis": "xy",
+							"translate": [4.92795, 11.92291, -2.52243],
+							"rotate": [-14.96307, -5.6108, 31.83535],
+							"boxes": [
+								{"coordinates": [-4, -6, -2, 8, 12, 4], "textureOffset": [16, 16]}
+							],
+							"submodels": [
+								{
+									"id": "quiver2",
+									"invertAxis": "xy",
+									"translate": [6.87851, -1.91655, 3.75],
+									"rotate": [-25, 0, -67.5],
+									"boxes": [
+										{"coordinates": [-2.10685, -12.0782, -3.5, 3, 10, 3], "textureOffset": [52, 19]}
+									],
+									"submodels": [
+										{
+											"id": "arrow3",
+											"invertAxis": "xy",
+											"translate": [-5.22625, 1.33522, -2],
+											"rotate": [0, 45, 0],
+											"boxes": [
+												{"coordinates": [3.26641, -3.91342, 1.76641, 0, 4, 3], "textureOffset": [8, 22]},
+												{"coordinates": [1.76641, -3.91342, 3.26641, 3, 4, 0], "textureOffset": [8, 25]}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "head",
+							"invertAxis": "xy",
+							"translate": [12.78356, 22.05697, -3.25268],
+							"rotate": [14.65993, 3.21132, -12.08681],
+							"boxes": [
+								{"coordinates": [-4, -4, -4, 8, 8, 8], "textureOffset": [0, 0]},
+								{"coordinates": [-4, -4, -4, 8, 8, 8], "textureOffset": [32, 0], "sizeAdd": 0.25}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"body.sx": "0.25",
+					"body.sy": "0.25",
+					"body.sz": "0.25"
+				},
+				{
+					"var.x": "age + random(id+5) * 1000",
+					"eye.ty": "sin((age + random(id+5) * 1000)/15)/2-16-((random(id)-0.5)*10)",
+					"eye.tz": "(random(id*2)-0.5)*20",
+					"eye.ry": "sin((age + random(id+5) * 1000)/15)/15",
+					"eye.rz": "cos((age + random(id+5) * 1000)/14)/15",
+					"eye.rx": "-sin((age + random(id+5) * 1000)/16)/15"
+				},
+				{
+					"eye2.ty": "sin((age + random(id) * 1000)/15)/2-16-((random(id*3)-0.5)*10)",
+					"eye2.tz": "-(random(id)-0.5)*4*2",
+					"eye2.ry": "-sin((age + random(id) * 1000)/16)/15",
+					"eye2.rz": "sin((age + random(id) * 1000)/13)/15",
+					"eye2.rx": "cos((age + random(id) * 1000)/15)/15"
+				},
+				{
+					"mouth.ty": "sin(var.x/15)/2-7-((random(id*6)-0.5)*7)",
+					"mouth.tz": "-(random(id)-0.5)*4*2",
+					"mouth.ry": "-sin((age + random(id-5) * 1000)/16)/15",
+					"mouth.rz": "sin((age + random(id-5) * 1000)/13)/15",
+					"mouth.rx": "cos((age + random(id-5) * 1000)/15)/15"
+				},
+				{
+					"right_l.ty": "-sin(var.x/15)/2-7-((random(id*6)-0.5)*7)",
+					"right_l.tz": "-(random(id)-0.5)*4*2",
+					"right_l.ry": "-sin((age + random(id-6) * 1000)/16)/15",
+					"right_l.rz": "-sin((age + random(id-6) * 1000)/13)/15",
+					"right_l.rx": "-cos((age + random(id-6) * 1000)/15)/15"
+				},
+				{
+					"left_l.ty": "-sin(var.x/15)/2-((random(id*6)-0.5)*7)-24",
+					"left_l.tz": "(-(random(id)-0.5)*4*2)-10",
+					"left_l.ry": "-cos((age + random(id-7) * 1000)/16)/15",
+					"left_l.rz": "(cos((age + random(id-7) * 1000)/13)/15)-torad(90)",
+					"left_l.rx": "(sin((age + random(id-7) * 1000)/15)/15)-10"
+				},
+				{
+					"left_a.ty": "-sin(var.x/15)/2-((random(id*6)-0.5)*7)-24",
+					"left_a.ry": "-cos((age + random(id-8) * 1000)/16)/15",
+					"left_a.rz": "(cos((age + random(id-8) * 1000)/13)/15)-torad(90)",
+					"left_a.rx": "(sin((age + random(id-8) * 1000)/15)/15)-10"
+				},
+				{
+					"right_a.ty": "-sin(var.x/15)/2-((random(id*6)-0.5)*7)-24",
+					"right_a.ry": "-sin((age + random(id-9) * 1000)/16)/15",
+					"right_a.rz": "-sin((age + random(id-9) * 1000)/13)/15",
+					"right_a.rx": "-cos((age + random(id-9) * 1000)/15)/15"
+				},
+				{
+					"head.ty": "-sin(var.x/15)/2-((random(id*10)-0.5)*7)-15",
+					"head.ry": "-cos((age + random(id-10) * 1000)/16)/15",
+					"head.rz": "-sin((age + random(id-10) * 1000)/13)/15",
+					"head.rx": "-cos((age + random(id-10) * 1000)/15)/15"
+				},
+				{
+					"body2.ty": "cos(var.x/15)/2-((random(id*11)-0.5)*7)-24",
+					"body2.ry": "-cos((age + random(id-11) * 1000)/16)/15",
+					"body2.rz": "-sin((age + random(id-11) * 1000)/13)/15",
+					"body2.rx": "-cos((age + random(id-11) * 1000)/15)/15"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "block/enchanting_table",
+		"particle": "block/enchanting_table"
+	},
+	"elements": [
+		{
+			"from": [-2, 12.5, 14],
+			"to": [2, 16.5, 18],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [2, 15, 15]},
+			"faces": {
+				"north": {"uv": [7.5, 11, 8.5, 12], "texture": "#0"},
+				"east": {"uv": [9.5, 11, 8.5, 12], "texture": "#0"},
+				"south": {"uv": [6.5, 11, 7.5, 12], "texture": "#0"},
+				"west": {"uv": [8.5, 11, 9.5, 12], "texture": "#0"},
+				"up": {"uv": [7.5, 10, 8.5, 11], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [8.5, 10, 9.5, 11], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 12.5, 14],
+			"to": [-2, 16.5, 18],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [2, 15, 15]},
+			"faces": {
+				"north": {"uv": [7.5, 11, 8.5, 12], "texture": "#0"},
+				"east": {"uv": [9.5, 11, 8.5, 12], "texture": "#0"},
+				"south": {"uv": [6.5, 11, 7.5, 12], "texture": "#0"},
+				"west": {"uv": [8.5, 11, 9.5, 12], "texture": "#0"},
+				"up": {"uv": [7.5, 10, 8.5, 11], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [8.5, 10, 9.5, 11], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "skull",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

@@ -1,0 +1,159 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, 1, 0]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 16, 8, 16], "textureOffset": [0, 104]},
+				{"coordinates": [-8, 8, -8, 16, 4, 16], "textureOffset": [64, 108]},
+				{"coordinates": [-8.5, -0.5, -8.5, 17, 10, 17], "textureOffset": [0, 77]}
+			],
+			"submodels": [
+				{
+					"id": "lid2",
+					"invertAxis": "xy",
+					"translate": [0, 9, 0],
+					"boxes": [
+						{"coordinates": [-8, 4, -8, 16, 5, 16], "textureOffset": [56, 18], "sizeAdd": -0.02},
+						{"coordinates": [-8.5, 9, -8.5, 17, 8, 17], "textureOffset": [0, 0], "sizeAdd": 0.02},
+						{"coordinates": [-9, 5.5, -9, 18, 12, 18], "textureOffset": [0, 29]}
+					]
+				},
+				{
+					"id": "body",
+					"invertAxis": "xy",
+					"translate": [0, 8, 0],
+					"boxes": [
+						{"coordinates": [-3, 0, -3, 6, 10, 6], "textureOffset": [104, 0]}
+					]
+				},
+				{
+					"id": "anti_rot",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "test",
+							"invertAxis": "xy",
+							"translate": [0, 35, 0.5]
+						}
+					]
+				},
+				{
+					"id": "eyes",
+					"invertAxis": "xy",
+					"translate": [0, 8, 0],
+					"submodels": [
+						{
+							"id": "eye_base2",
+							"invertAxis": "xy",
+							"translate": [0, 8, 0],
+							"rotate": [0, -90, 0],
+							"submodels": [
+								{
+									"id": "eye_baseb2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [-11, -1, -1, 8, 2, 2], "textureOffset": [108, 16]}
+									],
+									"submodels": [
+										{
+											"id": "eye_stalk2",
+											"invertAxis": "xy",
+											"translate": [-11, 0, 0],
+											"boxes": [
+												{"coordinates": [-8, -1, -1, 8, 2, 2], "textureOffset": [108, 20]}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "eye_base1",
+							"invertAxis": "xy",
+							"translate": [0, 8, 0],
+							"rotate": [0, -90, 0],
+							"submodels": [
+								{
+									"id": "eye_baseb1",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [-11, -1, -1, 8, 2, 2], "textureOffset": [108, 16]}
+									],
+									"submodels": [
+										{
+											"id": "eye_stalk1",
+											"invertAxis": "xy",
+											"translate": [-11, 0, 0],
+											"boxes": [
+												{"coordinates": [-8, -1, -1, 8, 2, 2], "textureOffset": [108, 20]}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"varb.shooting": "if(lid.ty < 10, 1,0) > 0"
+				},
+				{
+					"lid2.ty": "clamp((-23+lid.ty)*2,-9,2)",
+					"body.sy": "-lid2.ty*(1/8.9)",
+					"eyes.ty": "(-body.sy*4)-3",
+					"body.sx": "(-body.sy)+2",
+					"body.sz": "body.sx"
+				},
+				{
+					"var.mass": 60,
+					"var.stiff": 0.5,
+					"var.damp": 6,
+					"var.k": "-var.stiff",
+					"var.d": "-var.damp",
+					"var.fspring": "var.k * (var.x -head.ry)",
+					"var.fdamp": "var.d * var.v",
+					"var.a": "(var.fspring + var.fdamp) / var.mass",
+					"var.v": " var.v + var.a ",
+					"var.x": "var.x + var.v ",
+					"eyes.ry": "var.x"
+				},
+				{
+					"eye_base1.sx": "min(body.sy,1)",
+					"eye_base1.ry": "torad(70)+sin(age/12)/10",
+					"eye_stalk1.ry": "torad(170)-(eye_base1.ry*2)-((var.x-head.ry)*2)-(-body.sy+1)",
+					"eye_baseb1.rz": "torad(23)+ cos(age/15)/10",
+					"eye_stalk1.rz": "(-eye_baseb1.rz*1.5)"
+				},
+				{
+					"eye_base2.sx": "min(body.sy,1)",
+					"eye_base2.ry": "torad(110)-cos(age/12)/10",
+					"eye_stalk2.ry": "torad(190)-(eye_base2.ry*2)-((var.x-head.ry)*2)+(-body.sy+1)",
+					"eye_baseb2.rz": "torad(23)-sin(age/15)/10",
+					"eye_stalk2.rz": "(-eye_baseb2.rz*1.5)"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		}
+	]
+}

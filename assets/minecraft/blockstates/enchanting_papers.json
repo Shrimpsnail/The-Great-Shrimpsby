@@ -1,0 +1,70 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/enchanting_table"
+      }
+    },
+
+
+
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/enchanting_skull",
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/void",
+          "weight":2
+
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/enchanting_crystal",
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/void",
+          "weight":1
+
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/enchanting_candle",
+          "weight":3
+      
+        },
+        {
+          "model": "minecraft:block/void",
+          "weight":8
+
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/enchanting_papers",
+          "weight":2
+      
+        },
+        {
+          "model": "minecraft:block/void",
+          "weight":6
+
+        }
+      ]
+    }
+
+    
+  ]
+}

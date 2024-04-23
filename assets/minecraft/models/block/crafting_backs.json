@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"1": "block/crafting_void",
+		"2": "block/crafting_back_east",
+		"3": "block/crafting_back_north",
+		"4": "block/crafting_back_south",
+		"5": "block/crafting_back_west"
+	},
+	"elements": [
+		{
+			"from": [0, 16, 16],
+			"to": [16, 24, 0],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#3", "cullface": "up"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#2", "cullface": "up"},
+				"south": {"uv": [16, 0, 0, 8], "texture": "#4", "cullface": "up"},
+				"west": {"uv": [16, 0, 0, 8], "texture": "#5", "cullface": "up"},
+				"up": {"uv": [7, 16, 6, 15], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [7, 16, 6, 15], "texture": "#1", "cullface": "up"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": []
+		}
+	]
+}

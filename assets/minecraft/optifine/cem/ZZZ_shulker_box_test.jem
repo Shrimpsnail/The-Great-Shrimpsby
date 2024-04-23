@@ -1,0 +1,68 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/shulker/shulker.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "open",
+			"id": "open",
+			"invertAxis": "xy",
+			"translate": [0, -6, 0],
+			"rotate": [0, -180, 0],
+			"submodels": [
+				{
+					"id": "base",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-8, 0, -8, 16, 8, 16], "textureOffset": [0, 104]},
+						{"coordinates": [-8.5, -0.5, -8.5, 17, 10, 17], "textureOffset": [0, 77]}
+					],
+					"submodels": [
+						{
+							"id": "bone",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0]
+						}
+					]
+				},
+				{
+					"id": "lid",
+					"invertAxis": "xy",
+					"translate": [0, 6, 0],
+					"boxes": [
+						{"coordinates": [-9, 4.5, -9, 18, 12, 18], "textureOffset": [0, 29]},
+						{"coordinates": [-8.5, 8, -8.5, 17, 8, 17], "textureOffset": [0, 0], "sizeAdd": 0.02}
+					]
+				}
+			]
+		},
+		{
+			"part": "closed",
+			"id": "closed",
+			"invertAxis": "xy",
+			"translate": [-22, -6, 0],
+			"rotate": [0, -180, 0],
+			"submodels": [
+				{
+					"id": "base2",
+					"invertAxis": "xy",
+					"translate": [22, 0, 0],
+					"boxes": [
+						{"coordinates": [-8, 0, -8, 16, 8, 16], "textureOffset": [0, 104]},
+						{"coordinates": [-8.5, -0.5, -8.5, 17, 10, 17], "textureOffset": [0, 77]}
+					]
+				},
+				{
+					"id": "lid2",
+					"invertAxis": "xy",
+					"translate": [22, 0, 0],
+					"boxes": [
+						{"coordinates": [-9, 4.5, -9, 18, 12, 18], "textureOffset": [0, 29]},
+						{"coordinates": [-8.5, 8, -8.5, 17, 8, 17], "textureOffset": [0, 0], "sizeAdd": 0.02}
+					]
+				}
+			]
+		}
+	]
+}

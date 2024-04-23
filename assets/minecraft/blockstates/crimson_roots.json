@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "minecraft:block/crimson_roots",
+        "weight":100
+      },
+      {
+        "model": "minecraft:block/crimson_growths",
+        "weight":8
+      },
+      {
+        "model": "minecraft:block/crimson_growths1",
+        "weight":8
+      },
+      {
+        "model": "minecraft:block/crimson_growths2",
+        "weight":8
+      },
+      {
+        "model": "minecraft:block/crimson_skull",
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/crimson_fan",
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/crimson_fan",
+        "y":90,
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/crimson_fan",
+        "y":180,
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/crimson_fan",
+        "y":270,
+        "weight":2
+      }
+    ]
+  }
+}

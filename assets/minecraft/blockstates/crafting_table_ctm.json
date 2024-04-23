@@ -1,0 +1,229 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/crafting_table_base"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/crafting_backs"
+      }
+    },
+
+
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/crafting_table_hammer",
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_table_hammer",
+          "y":90,
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_table_hammer",
+          "y":270,
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_table_hammer",
+          "y":180,
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/void",
+          "weight":4
+
+      }
+      ]
+    },
+
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/crafting_side_plank",
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools",
+          "weight":2
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools2",
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools3",
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools4",
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_gav",
+          "weight":2
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_logs",
+          "weight":2
+      
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/crafting_side_plank",
+          "weight":1,
+          "y":90
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools",
+          "weight":3,
+          "y":90
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools2",
+          "weight":3,
+          "y":90
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools3",
+          "weight":2,
+          "y":90
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools4",
+          "weight":2,
+          "y":90
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_gav",
+          "weight":3,
+          "y":90
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_logs",
+          "weight":3,
+          "y":90
+      
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/crafting_side_plank",
+          "weight":1,
+          "y":180
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools",
+          "weight":3,
+          "y":180
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools2",
+          "weight":3,
+          "y":180
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools3",
+          "weight":4,
+          "y":180
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools4",
+          "weight":3,
+          "y":180
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_gav",
+          "weight":4,
+          "y":180
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_logs",
+          "weight":4,
+          "y":180
+      
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/crafting_side_plank",
+          "weight":1,
+          "y":270
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools",
+          "weight":4,
+          "y":270
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools2",
+          "weight":4,
+          "y":270
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools3",
+          "weight":4,
+          "y":270
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_tools4",
+          "weight":6,
+          "y":270
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_gav",
+          "weight":6,
+          "y":270
+      
+        },
+        {
+          "model": "minecraft:block/crafting_side_logs",
+          "weight":6,
+          "y":270
+      
+        }
+      ]
+    }
+
+
+    
+  ]
+}

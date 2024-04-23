@@ -1,0 +1,108 @@
+{
+  "multipart": [
+      {
+        "apply": [
+          {
+            "model": "minecraft:block/sculk_base_0",
+            "weight":20
+          },
+          {
+            "model": "minecraft:block/sculk_base_3a",
+            "weight":4
+          },
+          {
+            "model": "minecraft:block/sculk_base_3b",
+            "weight":4
+          },
+          {
+            "model": "minecraft:block/sculk_base_5a",
+            "weight":3
+          },
+          {
+            "model": "minecraft:block/sculk_base_5b",
+            "weight":3
+          },
+          {
+            "model": "minecraft:block/sculk_base_6a",
+            "weight":2
+          },
+          {
+            "model": "minecraft:block/sculk_base_6b",
+            "weight":2
+          },
+          {
+            "model": "minecraft:block/sculk_base_7a",
+            "weight":1
+          },
+          {
+            "model": "minecraft:block/sculk_base_7b",
+            "weight":1
+          }
+        ]
+      },
+      {
+        "apply": [
+          {
+            "model": "minecraft:block/sculk_grass1",
+            "weight":3
+          },
+          {
+            "model": "minecraft:block/sculk_grass2",
+            "weight":3
+          },
+          {
+            "model": "minecraft:block/sculk_grass3",
+            "weight":2
+          },
+          {
+            "model": "minecraft:block/sculk_grass4",
+            "weight":1
+          },
+          {
+            "model": "minecraft:block/void",
+            "weight":30
+          }
+        ]
+      },
+      {
+        "apply": [
+          {
+            "model": "minecraft:block/sculk_droop1",
+            "weight":3
+          },
+          {
+            "model": "minecraft:block/sculk_droop2",
+            "weight":3
+          },
+          {
+            "model": "minecraft:block/sculk_droop3",
+            "weight":2
+          },
+          {
+            "model": "minecraft:block/void",
+            "weight":30
+          }
+        ]
+      },
+      {
+        "apply": [
+          {
+            "model": "minecraft:block/sculk_gwall1",
+            "weight":3
+          },
+          {
+            "model": "minecraft:block/sculk_gwall2",
+            "weight":3
+          },
+          {
+            "model": "minecraft:block/sculk_gwall3",
+            "weight":2
+          },
+          {
+            "model": "minecraft:block/void",
+            "weight":30
+          }
+        ]
+      }
+  ]
+}

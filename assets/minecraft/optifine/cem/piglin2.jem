@@ -1,0 +1,181 @@
+{
+	"texture": "small_pig.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_ear",
+			"id": "left_ear",
+			"invertAxis": "xy",
+			"translate": [5, -30, 0]
+		},
+		{
+			"part": "right_ear",
+			"id": "right_ear",
+			"invertAxis": "xy",
+			"translate": [-5, -30, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [-1.5, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 4, -2, 8, 8, 4], "textureOffset": [0, 48]},
+				{"coordinates": [-4, 3, -2, 8, 5, 4], "textureOffset": [40, 39], "sizeAdd": 0.4}
+			],
+			"submodels": [
+				{
+					"id": "small_right_arm",
+					"invertAxis": "xy",
+					"translate": [5.5, 12, 0],
+					"boxes": [
+						{"coordinates": [-1.5, -7, -1, 2, 7, 2], "textureOffset": [32, 48]}
+					]
+				},
+				{
+					"id": "small_left_arm",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-4.5, 12, 0],
+					"boxes": [
+						{"coordinates": [-1.5, -7, -1, 2, 7, 2], "textureOffset": [32, 48]}
+					]
+				},
+				{
+					"id": "small_right_leg",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [2.5, 5, 0],
+					"boxes": [
+						{"coordinates": [-1.5, -5, -1, 2, 5, 2], "textureOffset": [24, 48]}
+					]
+				},
+				{
+					"id": "small_left_leg",
+					"invertAxis": "xy",
+					"translate": [0, 5, 0],
+					"boxes": [
+						{"coordinates": [-3, -5, -1, 2, 5, 2], "textureOffset": [24, 48]}
+					]
+				},
+				{
+					"id": "small_head",
+					"invertAxis": "xy",
+					"translate": [0, 12, 0],
+					"boxes": [
+						{"coordinates": [-5.5, 0, -4.5, 11, 7, 9], "textureOffset": [0, 32]},
+						{"coordinates": [-2.5, 0, -5.5, 5, 5, 1], "textureOffset": [31, 35]}
+					],
+					"submodels": [
+						{
+							"id": "ear_right",
+							"invertAxis": "xy",
+							"translate": [5.5, 5, 0],
+							"boxes": [
+								{"coordinates": [0, -5, -2.5, 1, 6, 5], "textureOffset": [40, 48]}
+							]
+						},
+						{
+							"id": "ear_left",
+							"invertAxis": "xy",
+							"translate": [-5.5, 5, 0],
+							"boxes": [
+								{"coordinates": [-1, -5, -2.5, 1, 6, 5], "textureOffset": [40, 48]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.sy": "2",
+					"this.sx": "2",
+					"this.sz": "2"
+				},
+				{
+					"small_head.ry": "head.ry",
+					"small_head.rx": "head.rx-(0.3*limb_speed)",
+					"small_head.rz": "head.rz",
+					"ear_right.rz": "sin(age/13)/10+0.3",
+					"ear_left.rz": "-cos(age/13)/10+-0.3"
+				},
+				{
+					"small_right_arm.rz": "right_arm.rz/2",
+					"small_right_arm.rx": "right_arm.rx/2+(0.5*limb_speed)",
+					"small_left_arm.rz": "left_arm.rz/2",
+					"small_left_arm.rx": "left_arm.rx/2+(0.5*limb_speed)",
+					"small_right_leg.rz": "right_leg.rz/2",
+					"small_right_leg.rx": "right_leg.rx/2",
+					"small_left_leg.rz": "left_leg.rz/2",
+					"small_left_leg.rx": "left_leg.rx/2"
+				}
+			]
+		},
+		{
+			"part": "jacket",
+			"id": "jacket",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0]
+		},
+		{
+			"part": "left_sleeve",
+			"id": "left_sleeve",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0]
+		},
+		{
+			"part": "right_sleeve",
+			"id": "right_sleeve",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0]
+		},
+		{
+			"part": "left_pants",
+			"id": "left_pants",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0]
+		},
+		{
+			"part": "right_pants",
+			"id": "right_pants",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0]
+		}
+	]
+}

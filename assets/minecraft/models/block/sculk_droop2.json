@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"0": "block/sculk_droop2",
+		"particle": "block/sculk_droop2"
+	},
+	"elements": [
+		{
+			"from": [8, -16, 0],
+			"to": [8, 0, 16],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#0", "cullface": "down"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#0", "cullface": "down"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down"},
+				"up": {"uv": [0, 0, 16, 0], "rotation": 90, "texture": "#0", "cullface": "down"},
+				"down": {"uv": [0, 0, 16, 0], "rotation": 270, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, -16, 8],
+			"to": [16, 0, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0", "cullface": "down"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0", "cullface": "down"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0", "cullface": "down"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

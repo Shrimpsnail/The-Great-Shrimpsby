@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_insense",
+  "textures": {
+    "all": "minecraft:block/incense",
+    "particle": "minecraft:block/black_candle"
+  }
+}

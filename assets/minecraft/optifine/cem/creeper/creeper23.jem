@@ -1,0 +1,131 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "creeper_sand_tall.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0],
+			"submodels": [
+				{
+					"id": "creeper",
+					"invertAxis": "xy",
+					"translate": [0, 12.5, 0],
+					"submodels": [
+						{
+							"id": "tall",
+							"invertAxis": "xy",
+							"translate": [0, -10.5, 0],
+							"boxes": [
+								{"coordinates": [-6, 0, -6, 12, 34, 12], "textureOffset": [0, 13]}
+							]
+						},
+						{
+							"id": "tippies",
+							"invertAxis": "xy",
+							"translate": [0, -12.5, 0],
+							"submodels": [
+								{
+									"id": "tip1",
+									"invertAxis": "xy",
+									"translate": [-5.5, 3.5, -6.5],
+									"boxes": [
+										{"coordinates": [-4.5, -3.5, -3.5, 6, 10, 6], "textureOffset": [40, 0]}
+									]
+								},
+								{
+									"id": "tip2",
+									"invertAxis": "xy",
+									"translate": [6, 3.5, -6],
+									"boxes": [
+										{"coordinates": [-2, -3.5, -4, 6, 10, 6], "textureOffset": [40, 0]}
+									]
+								},
+								{
+									"id": "tip3",
+									"invertAxis": "xy",
+									"translate": [-6, 3.5, 6],
+									"boxes": [
+										{"coordinates": [-4, -3.5, -2, 6, 10, 6], "textureOffset": [40, 0]}
+									]
+								},
+								{
+									"id": "tip4",
+									"invertAxis": "xy",
+									"translate": [8, 3.5, 6],
+									"boxes": [
+										{"coordinates": [-4, -3.5, -2, 6, 10, 6], "textureOffset": [40, 0]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.mass": 40,
+					"var.stiff": 1,
+					"var.damp": 4,
+					"var.k": "-var.stiff",
+					"var.d": "-var.damp",
+					"var.fspring": "var.k * (var.x + limb_speed/3)",
+					"var.fdamp": "var.d * var.v",
+					"var.a": "(var.fspring + var.fdamp) / var.mass",
+					"var.v": " var.v + var.a ",
+					"var.x": "var.x + var.v ",
+					"tall.rx": "var.x"
+				},
+				{
+					"var.time": "(var.time + 1 * limb_speed * 30 * frame_time)"
+				},
+				{
+					"tip1.tz": "( limb_speed * sin(var.time) * 5)-5",
+					"tip1.ty": "min( limb_speed * cos(var.time) * 5, 0) -3.5",
+					"tip1.rx": "min( limb_speed * cos(var.time) * 2, 0) / 2",
+					"tip4.tz": "( limb_speed * sin(var.time) * 5)+5",
+					"tip4.ty": "min( limb_speed * cos(var.time) * 5, 0) -3.5",
+					"tip4.rx": "-min( limb_speed * cos(var.time) * 2, 0) / 2",
+					"tip2.tz": "( limb_speed * sin(var.time+10) * 5)-5",
+					"tip2.ty": "min( limb_speed * cos(var.time+10) * 5, 0) -3.5",
+					"tip2.rx": "min( limb_speed * cos(var.time+10) * 2, 0) / 2",
+					"tip3.tz": "( limb_speed * sin(var.time+10) * 5)+5",
+					"tip3.ty": "min( limb_speed * cos(var.time+10) * 5, 0) -3.5",
+					"tip3.rx": "-min( limb_speed * cos(var.time+10) * 2, 0) / 2"
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-2, -6, -4]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [2, -6, -4]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-2, -6, 4]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [2, -6, 4]
+		}
+	]
+}

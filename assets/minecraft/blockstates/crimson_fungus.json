@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "minecraft:block/crimson_fungus"
+      },
+      {
+        "model": "minecraft:block/crimson_fungus2"
+      },
+      {
+        "model": "minecraft:block/crimson_fungus3"
+      },
+      {
+        "model": "minecraft:block/crimson_fungus_ball"
+      },
+      {
+        "model": "minecraft:block/crimson_fungus_ball2"
+      },
+      {
+        "model": "minecraft:block/crimson_fungus_ball3"
+      },
+      {
+        "model": "minecraft:block/crimson_fungus_tall"
+      },
+      {
+        "model": "minecraft:block/crimson_fungus_tall2"
+      },
+      {
+        "model": "minecraft:block/crimson_fungus_tall3"
+      }
+
+    ]
+  }
+}

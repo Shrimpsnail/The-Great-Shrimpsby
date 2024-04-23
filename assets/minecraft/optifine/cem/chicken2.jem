@@ -1,0 +1,126 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "chicken_wild_smol.png",
+	"textureSize": [32, 16],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -9, 4]
+		},
+		{
+			"part": "bill",
+			"id": "bill",
+			"invertAxis": "xy",
+			"translate": [0, -9, 4]
+		},
+		{
+			"part": "chin",
+			"id": "chin",
+			"invertAxis": "xy",
+			"translate": [0, -9, 4]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -8, 0],
+			"submodels": [
+				{
+					"id": "chick",
+					"invertAxis": "xy",
+					"translate": [0, -6, 8],
+					"submodels": [
+						{
+							"id": "body3",
+							"invertAxis": "xy",
+							"translate": [0, 9, -7],
+							"boxes": [
+								{"coordinates": [-2, -2, -3, 4, 4, 6], "textureOffset": [12, 0]},
+								{"coordinates": [0, -2, 3, 0, 4, 3], "textureOffset": [12, -1]}
+							],
+							"submodels": [
+								{
+									"id": "head3",
+									"invertAxis": "xy",
+									"translate": [0, 1, -2],
+									"boxes": [
+										{"coordinates": [-1.5, -0.5, -3, 3, 3, 3], "textureOffset": [0, 0]},
+										{"coordinates": [-0.5, 0.5, -4, 1, 1, 1], "textureOffset": [9, 0]}
+									]
+								}
+							]
+						},
+						{
+							"id": "right_leg3",
+							"invertAxis": "xy",
+							"translate": [1, 7.5, -7.5],
+							"boxes": [
+								{"coordinates": [-0.5, -1.5, -0.5, 1, 1, 1], "textureOffset": [13, 0]}
+							]
+						},
+						{
+							"id": "left_leg3",
+							"invertAxis": "xy",
+							"translate": [-1, 7.5, -7.5],
+							"boxes": [
+								{"coordinates": [-0.5, -1.5, -0.5, 1, 1, 1], "textureOffset": [13, 0]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0,
+					"chick.sx": 2,
+					"chick.sy": 2,
+					"chick.sz": 2,
+					"chick.rx": "-body.rx",
+					"var.time_walk": "(var.time_walk + 1 * limb_speed * 45 * frame_time )"
+				},
+				{
+					"var.body_walkty": "5+(sin(var.time_walk)/2)*limb_speed",
+					"body3.ty": "var.body_walkty",
+					"body3.rx": "(limb_speed/4)"
+				},
+				{
+					"head3.ty": "-body3.ty+4",
+					"head3.rx": "-body3.rx + head.rx",
+					"head3.ry": " head.ry"
+				},
+				{
+					"left_leg3.rx": "(sin(var.time_walk)/1.5)*limb_speed",
+					"left_leg3.ty": "min(6.5+(cos(var.time_walk)*1.5)*limb_speed,6.5)",
+					"right_leg3.rx": "(-sin(var.time_walk)/1.5)*limb_speed",
+					"right_leg3.ty": "min(6.5+(-cos(var.time_walk)*1.5)*limb_speed,6.5)"
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [-4, -11, 0]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-4, -11, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1, -5, -1]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -5, -1]
+		}
+	]
+}

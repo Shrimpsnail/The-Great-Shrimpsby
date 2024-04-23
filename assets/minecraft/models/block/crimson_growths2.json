@@ -1,0 +1,53 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/crimon_growth",
+		"particle": "block/crimon_growth"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 5],
+			"to": [6, 16, 7],
+			"faces": {
+				"north": {"uv": [2, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"south": {"uv": [2, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 14, 2, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [11, 0, 2],
+			"to": [13, 13, 4],
+			"faces": {
+				"north": {"uv": [2, 3, 4, 16], "texture": "#0"},
+				"east": {"uv": [4, 3, 2, 16], "texture": "#0"},
+				"south": {"uv": [2, 3, 4, 16], "texture": "#0"},
+				"west": {"uv": [4, 3, 2, 16], "texture": "#0"},
+				"up": {"uv": [2, 3, 4, 5], "texture": "#0"},
+				"down": {"uv": [2, 14, 4, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 0, 8],
+			"to": [11, 8, 10],
+			"faces": {
+				"north": {"uv": [6, 8, 4, 16], "texture": "#0"},
+				"east": {"uv": [4, 8, 6, 16], "texture": "#0"},
+				"south": {"uv": [6, 8, 4, 16], "texture": "#0"},
+				"west": {"uv": [4, 8, 6, 16], "texture": "#0"},
+				"up": {"uv": [4, 8, 6, 10], "texture": "#0"},
+				"down": {"uv": [4, 14, 6, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

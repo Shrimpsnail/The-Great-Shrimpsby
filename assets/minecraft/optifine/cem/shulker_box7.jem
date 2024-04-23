@@ -1,0 +1,80 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/shulker/shulker_pink.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, -10, 0],
+			"boxes": [
+				{"coordinates": [-9, 14.5, -9, 18, 12, 18], "textureOffset": [0, 29]},
+				{"coordinates": [-8.5, 18, -8.5, 17, 8, 17], "textureOffset": [0, 0], "sizeAdd": 0.02}
+			],
+			"submodels": [
+				{
+					"id": "spikes1",
+					"invertAxis": "xy",
+					"translate": [0, 10, 0],
+					"submodels": [
+						{
+							"id": "bone",
+							"invertAxis": "xy",
+							"translate": [-9, 10.5, 10],
+							"rotate": [0, -45, 0],
+							"boxes": [
+								{"coordinates": [-0.75, -1.5, -8.5, 0, 12, 11], "textureOffset": [51, -6]}
+							]
+						},
+						{
+							"id": "bone2",
+							"invertAxis": "xy",
+							"translate": [8.85445, 15, -8.91511],
+							"rotate": [0, 135, 0],
+							"boxes": [
+								{"coordinates": [0, -6, -6.5, 0, 12, 11], "textureOffset": [51, -6]}
+							]
+						}
+					]
+				},
+				{
+					"id": "spikes2",
+					"invertAxis": "xy",
+					"translate": [0, 10, 0],
+					"rotate": [0, -90, 0],
+					"submodels": [
+						{
+							"id": "bone3",
+							"invertAxis": "xy",
+							"translate": [-9, 10.5, 10],
+							"rotate": [0, -45, 0],
+							"boxes": [
+								{"coordinates": [-0.75, -1.5, -7.5, 0, 12, 11], "textureOffset": [51, -6]}
+							]
+						},
+						{
+							"id": "bone4",
+							"invertAxis": "xy",
+							"translate": [8.85445, 15, -8.91511],
+							"rotate": [0, 135, 0],
+							"boxes": [
+								{"coordinates": [0, -6, -6.5, 0, 12, 11], "textureOffset": [51, -6]}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 16, 8, 16], "textureOffset": [0, 104]},
+				{"coordinates": [-8.5, -0.5, -8.5, 17, 10, 17], "textureOffset": [0, 77]}
+			]
+		}
+	]
+}

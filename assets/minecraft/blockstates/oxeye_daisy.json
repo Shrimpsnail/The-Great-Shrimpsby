@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/flowers/daisy/1"},
+      {"model": "minecraft:block/flowers/daisy/2"},
+      {"model": "minecraft:block/flowers/daisy/3"}
+
+
+    ]
+  }
+}

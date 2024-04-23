@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_crimson",
+  "textures": {
+    "cross": "minecraft:block/rose_bush",
+    "particle":"minecraft:block/rose_bush_item"
+  }
+}

@@ -1,0 +1,194 @@
+{
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [-8, 0, -8],
+			"rotate": [-180, 0, 0],
+			"submodels": [
+				{
+					"id": "normal",
+					"invertAxis": "xy",
+					"translate": [8, 0, 9],
+					"boxes": [
+						{"coordinates": [-15, -9, 2, 14, 9, 11], "textureOffset": [3, 18]}
+					],
+					"submodels": [
+						{
+							"id": "lid3",
+							"invertAxis": "xy",
+							"translate": [-8, -9, 2],
+							"boxes": [
+								{"coordinates": [-7.5, -4, -0.5, 15, 4, 12], "textureOffset": [2, 0]}
+							],
+							"submodels": [
+								{
+									"id": "knob3",
+									"invertAxis": "xy",
+									"translate": [0, 0, 11.5],
+									"boxes": [
+										{"coordinates": [-3, -1, -0.5, 6, 4, 1], "textureOffset": [0, 0]}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "underwater",
+					"invertAxis": "xy",
+					"translate": [8, 0, 8],
+					"boxes": [
+						{"coordinates": [-15, -9, 3, 14, 9, 11], "textureOffset": [78, 20]}
+					],
+					"submodels": [
+						{
+							"id": "lid2",
+							"invertAxis": "xy",
+							"translate": [0, -9, 3],
+							"boxes": [
+								{"coordinates": [-15.5, -7, -0.5, 15, 7, 12], "textureOffset": [74, 0]}
+							],
+							"submodels": [
+								{
+									"id": "knob2",
+									"invertAxis": "xy",
+									"translate": [-8, 0, 11.5],
+									"boxes": [
+										{"coordinates": [-3.5, -1, -0.5, 7, 5, 1], "textureOffset": [70, 0]}
+									]
+								},
+								{
+									"id": "seagrass",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"submodels": [
+										{
+											"id": "grass1",
+											"invertAxis": "xy",
+											"translate": [-15.5, 0, 9.5],
+											"boxes": [
+												{"coordinates": [0, 0, -2, 0, 7, 2], "textureOffset": [124, 22], "sizeAdd": 0.001}
+											]
+										},
+										{
+											"id": "grass2",
+											"invertAxis": "xy",
+											"translate": [-15.5, 0, 4.5],
+											"boxes": [
+												{"coordinates": [0, 0, -2, 0, 5, 2], "textureOffset": [120, 24], "sizeAdd": 0.001}
+											]
+										},
+										{
+											"id": "grass3",
+											"invertAxis": "xy",
+											"translate": [-2.5, 0, 11.5],
+											"boxes": [
+												{"coordinates": [-1, 0, 0, 2, 6, 0], "textureOffset": [124, 24], "sizeAdd": 0.001}
+											]
+										},
+										{
+											"id": "grass4",
+											"invertAxis": "xy",
+											"translate": [-0.5, 0, 6.5],
+											"boxes": [
+												{"coordinates": [0, 0, -2, 0, 7, 2], "textureOffset": [124, 22], "sizeAdd": 0.001}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "bubbles",
+							"invertAxis": "xy",
+							"translate": [-8, -2, -7],
+							"submodels": [
+								{
+									"id": "bub1",
+									"invertAxis": "xy",
+									"translate": [-13.5, -4.5, 17],
+									"rotate": [0, 0, -180],
+									"boxes": [
+										{"coordinates": [-13.75, -3.5, 0, 6, 6, 0], "textureOffset": [74, 6]}
+									]
+								},
+								{
+									"id": "bub2",
+									"invertAxis": "xy",
+									"translate": [-9.5, -4.5, 20],
+									"rotate": [0, 0, -180],
+									"boxes": [
+										{"coordinates": [-14.5, 0.5, 0, 6, 6, 0], "textureOffset": [74, 6]}
+									]
+								},
+								{
+									"id": "bub3",
+									"invertAxis": "xy",
+									"translate": [-10.5, -4.5, 15],
+									"rotate": [0, 0, -180],
+									"boxes": [
+										{"coordinates": [-14.5, -1.5, -3, 7, 7, 0], "textureOffset": [75, 20]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0,
+					"lid2.rx": "lid.rx",
+					"knob2.rx": "clamp(-lid2.rx,torad(0),torad(45))",
+					"knob2.ty": "lid2.rx*0.7",
+					"lid3.rx": "lid.rx",
+					"knob3.rx": "clamp(-lid3.rx,torad(0),torad(45))",
+					"knob3.ty": "lid3.rx*0.7"
+				},
+				{
+					"grass1.rx": "-lid2.rx*0.95",
+					"grass2.rx": "-lid2.rx*0.95",
+					"grass3.rx": "-lid2.rx*0.95",
+					"grass4.rx": "-lid2.rx*0.95"
+				},
+				{
+					"bubbles.sy": "if(-lid.rx > 1.2,0,bubbles.sy)",
+					"bubbles.ty": "-lid.rx*20"
+				},
+				{
+					"normal.sy": "if(is_in_water,0,1)",
+					"normal.sx": "if(is_in_water,0,1)",
+					"underwater.sy": "if(is_in_water,1,0)",
+					"underwater.sx": "if(is_in_water,1,0)"
+				}
+			]
+		},
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [-8, -9, -7],
+			"rotate": [-180, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "knob",
+			"id": "knob",
+			"invertAxis": "xy",
+			"translate": [-8, -8, -8],
+			"rotate": [-180, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		}
+	]
+}

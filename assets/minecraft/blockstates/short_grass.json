@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/grass/grass","weight":6},
+      {"model": "minecraft:block/grass/grass_large","weight":1},
+      {"model": "minecraft:block/grass/grass_thick","weight":5},
+      {"model": "minecraft:block/grass/grass2","weight":10},
+      {"model": "minecraft:block/grass/grass_large2","weight":2},
+      {"model": "minecraft:block/grass/grass_thick2","weight":8},
+
+
+      {"model": "minecraft:block/grass/weeds","weight":3},
+      {"model": "minecraft:block/grass/weeds2","weight":2},
+      {"model": "minecraft:block/grass/weeds3","weight":1},
+      {"model": "minecraft:block/grass/weeds4","weight":1}
+
+    ]
+  }
+}

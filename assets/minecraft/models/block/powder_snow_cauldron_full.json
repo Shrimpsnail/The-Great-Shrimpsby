@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/template_cauldron_full",
+  "textures": {
+    "5":"minecraft:block/cauldron_outer_s3",
+    "bottom": "minecraft:block/cauldron_bottom_s3",
+    "content": "minecraft:block/powder_snow",
+    "inside": "minecraft:block/cauldron_inner_s3",
+    "particle": "minecraft:block/cauldron_side_s3",
+    "side": "minecraft:block/cauldron_side_s3",
+    "top": "minecraft:block/cauldron_top_s3"
+  }
+}

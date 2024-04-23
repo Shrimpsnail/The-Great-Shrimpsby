@@ -1,0 +1,89 @@
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "minecraft:block/brown_mushroom",
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom",
+        "y":180,
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom2",
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom2",
+        "y":180,
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom3",
+        "weight":1
+      },
+      {
+        "model": "minecraft:block/brown_mushroom3",
+        "y":180,
+        "weight":1
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_tall",
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_tall",
+        "y":180,
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_tall2",
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_tall2",
+        "y":180,
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_tall3",
+        "weight":1
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_tall3",
+        "y":180,
+        "weight":1
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_flat",
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_flat",
+        "y":180,
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_flat2",
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_flat2",
+        "y":180,
+        "weight":2
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_flat3",
+        "weight":1
+      },
+      {
+        "model": "minecraft:block/brown_mushroom_flat3",
+        "y":180,
+        "weight":1
+      }
+
+    ]
+  }
+}

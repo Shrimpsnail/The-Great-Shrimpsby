@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/slime/slime.png",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 16]}
+			],
+			"submodels": [
+				{
+					"id": "eye",
+					"invertAxis": "xy",
+					"translate": [0, 4, 0],
+					"boxes": [
+						{"coordinates": [-2, -2, -2, 4, 4, 4], "textureOffset": [16, 8]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.x": "age + random(id) * 1000",
+					"eye.ty": "sin(var.x/15)/2-4",
+					"eye.ry": "sin(var.x/15)/15",
+					"eye.rz": "cos(var.x/14)/15",
+					"eye.rx": "-sin(var.x/16)/15"
+				}
+			]
+		}
+	]
+}

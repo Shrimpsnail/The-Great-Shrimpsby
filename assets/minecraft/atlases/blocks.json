@@ -1,0 +1,14 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "entity/shulker",
+            "prefix": "entity/shulker/"
+        },
+        {
+            "type": "directory",
+            "source": "minecraft:optifine/cit",
+            "prefix": "minecraft:optifine/cit/"
+        }
+    ]
+}

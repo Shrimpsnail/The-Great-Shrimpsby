@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/dead_bush/dead","weight":3},
+      {"model": "minecraft:block/dead_bush/dead2","weight":3},
+      {"model": "minecraft:block/dead_bush/dead3","weight":3},
+
+      {"model": "minecraft:block/dead_bush/aloe","weight":2},
+      {"model": "minecraft:block/dead_bush/aloe2","weight":2},
+
+      {"model": "minecraft:block/dead_bush/green","weight":1},
+      {"model": "minecraft:block/dead_bush/bush","weight":3}
+
+
+    ]
+  }
+}

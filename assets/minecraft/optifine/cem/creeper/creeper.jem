@@ -1,0 +1,143 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "creeper.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0],
+			"submodels": [
+				{
+					"id": "creeper",
+					"invertAxis": "xy",
+					"translate": [0, 12.5, 0],
+					"boxes": [
+						{"coordinates": [-5, -10.5, -5, 10, 21, 10], "textureOffset": [0, 0]}
+					],
+					"submodels": [
+						{
+							"id": "tippies",
+							"invertAxis": "xy",
+							"translate": [0, -12.5, 0],
+							"submodels": [
+								{
+									"id": "tip1",
+									"invertAxis": "xy",
+									"translate": [-5, 3.5, -5],
+									"boxes": [
+										{"coordinates": [-2, -3.5, -2, 4, 7, 4], "textureOffset": [48, 0]}
+									]
+								},
+								{
+									"id": "tip2",
+									"invertAxis": "xy",
+									"translate": [5, 3.5, -5],
+									"boxes": [
+										{"coordinates": [-2, -3.5, -2, 4, 7, 4], "textureOffset": [48, 0]}
+									]
+								},
+								{
+									"id": "tip3",
+									"invertAxis": "xy",
+									"translate": [-5, 3.5, 5],
+									"boxes": [
+										{"coordinates": [-2, -3.5, -2, 4, 7, 4], "textureOffset": [48, 0]}
+									]
+								},
+								{
+									"id": "tip4",
+									"invertAxis": "xy",
+									"translate": [5, 3.5, 5],
+									"boxes": [
+										{"coordinates": [-2, -3.5, -2, 4, 7, 4], "textureOffset": [48, 0]}
+									]
+								}
+							]
+						},
+						{
+							"id": "foliage",
+							"invertAxis": "xy",
+							"translate": [0, -12.5, 0],
+							"submodels": [
+								{
+									"id": "plant2",
+									"invertAxis": "xy",
+									"translate": [-4, 22, -1],
+									"boxes": [
+										{"coordinates": [-5, 0, 0, 6, 8, 0], "textureOffset": [30, 0]}
+									]
+								},
+								{
+									"id": "plant",
+									"invertAxis": "xy",
+									"translate": [-3.5, 22, -3],
+									"rotate": [0, 0, 22.5],
+									"boxes": [
+										{"coordinates": [-4.5, 0, 0, 5, 6, 0], "textureOffset": [0, 0]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.time": "(var.time + 1 * limb_speed * 50 * frame_time)"
+				},
+				{
+					"tip1.tz": "( limb_speed * sin(var.time) * 4)-5",
+					"tip1.ty": "min( limb_speed * cos(var.time) * 4, 0) -3.5",
+					"tip1.rx": "min( limb_speed * cos(var.time) * 2, 0) / 2",
+					"tip4.tz": "( limb_speed * sin(var.time) * 4)+5",
+					"tip4.ty": "min( limb_speed * cos(var.time) * 4, 0) -3.5",
+					"tip4.rx": "-min( limb_speed * cos(var.time) * 2, 0) / 2",
+					"tip2.tz": "( limb_speed * sin(var.time+10) * 4)-5",
+					"tip2.ty": "min( limb_speed * cos(var.time+10) * 4, 0) -3.5",
+					"tip2.rx": "min( limb_speed * cos(var.time+10) * 2, 0) / 2",
+					"tip3.tz": "( limb_speed * sin(var.time+10) * 4)+5",
+					"tip3.ty": "min( limb_speed * cos(var.time+10) * 4, 0) -3.5",
+					"tip3.rx": "-min( limb_speed * cos(var.time+10) * 2, 0) / 2"
+				},
+				{
+					"plant.rz": "cos((age+random(id) * 10)/15)/5",
+					"plant.rx": "-sin((age+random(id) * 10)/15) / 4 * limb_speed -( limb_speed)",
+					"plant2.rz": "sin((age+random(id))/15)/5",
+					"plant2.rx": "-cos((age+random(id))/15) / 4 * limb_speed -( limb_speed)"
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-2, -6, -4]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [2, -6, -4]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-2, -6, 4]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [2, -6, 4]
+		}
+	]
+}

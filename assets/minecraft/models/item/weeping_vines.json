@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+	  "particle":"minecraft:item/weeping_vines",
+	  "layer0": "minecraft:item/weeping_vines"
+	}
+  }

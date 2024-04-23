@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "": "minecraft:block/red_sandstone_top",
+    "particle": "minecraft:block/red_sandstone_top"
+  }
+}

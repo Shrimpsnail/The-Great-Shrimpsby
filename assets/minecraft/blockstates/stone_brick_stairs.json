@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "half=bottom,facing=north,shape=straight": {
+      "model": "minecraft:block/stone_stair_ns",
+      "y":180
+    },
+    "half=bottom,facing=south,shape=straight": {
+      "model": "minecraft:block/stone_stair_ns"
+    },
+    "half=bottom,facing=east,shape=straight": {
+      "model": "minecraft:block/stone_stair_ew"
+    },
+    "half=bottom,facing=west,shape=straight": {
+      "model": "minecraft:block/stone_stair_ew",
+      "y":180
+    }
+  }
+}

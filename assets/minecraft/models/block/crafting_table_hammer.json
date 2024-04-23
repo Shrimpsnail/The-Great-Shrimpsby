@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"0": "block/crafting_table_tools",
+		"particle": "block/crafting_table_tools"
+	},
+	"elements": [
+		{
+			"from": [1.70711, 16, 5.36396],
+			"to": [4.70711, 19, 10.36396],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [3.20711, 17.5, 7.86396]},
+			"faces": {
+				"north": {"uv": [0, 3, 3, 6], "rotation": 90, "texture": "#0", "cullface": "up"},
+				"east": {"uv": [8, 3, 13, 6], "texture": "#0", "cullface": "up"},
+				"south": {"uv": [0, 3, 3, 6], "rotation": 270, "texture": "#0", "cullface": "up"},
+				"west": {"uv": [3, 0, 8, 3], "rotation": 180, "texture": "#0", "cullface": "up"},
+				"up": {"uv": [3, 3, 8, 6], "rotation": 270, "texture": "#0", "cullface": "up"},
+				"down": {"uv": [3, 3, 8, 6], "rotation": 270, "texture": "#0", "cullface": "up"}
+			}
+		},
+		{
+			"from": [4.55487, 17, 8.12933],
+			"to": [11.55487, 18, 9.12933],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [5.05487, 20.5, 8.62933]},
+			"faces": {
+				"north": {"uv": [0, 7, 7, 8], "texture": "#0", "cullface": "up"},
+				"east": {"uv": [0, 7, 1, 8], "texture": "#0", "cullface": "up"},
+				"south": {"uv": [0, 7, 7, 8], "texture": "#0", "cullface": "up"},
+				"west": {"uv": [0, 7, 1, 8], "texture": "#0", "cullface": "up"},
+				"up": {"uv": [0, 7, 7, 8], "rotation": 180, "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 7, 7, 8], "rotation": 180, "texture": "#0", "cullface": "up"}
+			}
+		}
+	]
+}
