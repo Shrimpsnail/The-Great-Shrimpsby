@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle":"minecraft:optifine/cit/stews/poison_p",
+    "layer0": "minecraft:optifine/cit/stews/poison"
+  }
+}

@@ -12,6 +12,12 @@
 	"item.minecraft.nether_wart": "Soul",
 
 	"item.minecraft.wooden_sword": "Wooden Club",
+	"item.minecraft.wooden_pickaxe": "Wooden Hammer",
+	"item.minecraft.wooden_axe": "Wooden Hatchet",
+	"item.minecraft.stone_sword": "Stone Dagger",
+	"item.minecraft.stone_axe": "Stone Hatchet",
+	"item.minecraft.netherite_sword": "Netherite Greatsword",
+	"item.minecraft.netherite_axe": "Netherite Greataxe",
 
 	"block.minecraft.red_mushroom": "Agaric Mushroom",
 	"block.minecraft.brown_mushroom": "Wood Mushroom",

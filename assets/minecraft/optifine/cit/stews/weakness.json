@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle":"minecraft:optifine/cit/stews/weakness_p",
+    "layer0": "minecraft:optifine/cit/stews/weakness"
+  }
+}
