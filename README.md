@@ -23,12 +23,8 @@ Credits: [Needs Links]
 
     6_28318530717958 for the dead leaf decay
     
-    althenry for the sugarcane idea
-    
-    derp for help with grass
+    althenry for the sugarcane and flowers inspiration
     
     Original creeper design inspired by neytirix
  
     Original shulker design inspired by Arkticboi
- 
-    Cloud shader by fayer3#2332
