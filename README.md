@@ -1,6 +1,3 @@
-
-[Needs Images]
-
 Welcome! to the public repository of the Great Shrimpsby resource pack, this is used by me as a backup, a way to access and update shrimpsby from anywhere, and also a bug reporter, however feel free to use anything for reference or to include (with the exception of textures and models) in your pack
 
 The shaders are either extremely primitive or not mine to begin with and are in the MIT license
