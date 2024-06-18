@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle":"minecraft:item/acacia_seed_pod",
+    "layer0": "minecraft:item/acacia_seed_pod"
+  }
+}

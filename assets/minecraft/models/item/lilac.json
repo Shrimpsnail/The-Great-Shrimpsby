@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:block/lilac_item"
+    "layer0": "minecraft:item/lilac"
   }
 }

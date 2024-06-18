@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/flower_pots/brown_mushroom/potted"},
+      {"model": "minecraft:block/flower_pots/brown_mushroom/potted2"},
+      {"model": "minecraft:block/flower_pots/brown_mushroom/potted_tall"},
+      {"model": "minecraft:block/flower_pots/brown_mushroom/potted_tall2"}
+
+
+    ]
+  }
+}

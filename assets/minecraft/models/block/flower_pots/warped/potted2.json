@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/flower_pots/flower_pot_flower_nether2",
+	"textures": {
+	  "flower": "minecraft:block/flowers/warped/pot"
+	}
+  }

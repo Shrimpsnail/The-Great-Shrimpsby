@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/rooted_dirt"},
+      {"model": "minecraft:block/rooted_dirt2"}
+
+
+    ]
+  }
+}

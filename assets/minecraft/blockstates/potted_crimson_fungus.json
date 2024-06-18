@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/flower_pots/crimson_morel/potted"},
+      {"model": "minecraft:block/flower_pots/crimson_morel/potted2"},
+      {"model": "minecraft:block/flower_pots/crimson_morel/potted_tall"},
+      {"model": "minecraft:block/flower_pots/crimson_morel/potted_tall2"}
+
+
+    ]
+  }
+}

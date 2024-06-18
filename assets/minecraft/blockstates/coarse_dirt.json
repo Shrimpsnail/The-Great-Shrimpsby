@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/coarse_dirt_heavy1","weight":10},
+      {"model": "minecraft:block/coarse_dirt_heavy2","weight":10},
+      {"model": "minecraft:block/coarse_dirt_heavy3","weight":10},
+      {"model": "minecraft:block/coarse_dirt_heavy4","weight":10},
+      {"model": "minecraft:block/coarse_dirt_heavy5","weight":10},
+
+      {"model": "minecraft:block/coarse_dirt_light1","weight":10},
+      {"model": "minecraft:block/coarse_dirt_light2","weight":10},
+      {"model": "minecraft:block/coarse_dirt_light3","weight":10},
+      {"model": "minecraft:block/coarse_dirt_light4","weight":10},
+      {"model": "minecraft:block/coarse_dirt_light5","weight":10},
+
+      {"model": "minecraft:block/coarse_dirt_normal1","weight":10},
+      {"model": "minecraft:block/coarse_dirt_normal2","weight":10},
+      {"model": "minecraft:block/coarse_dirt_normal3","weight":10},
+      {"model": "minecraft:block/coarse_dirt_normal4","weight":10},
+      {"model": "minecraft:block/coarse_dirt_normal5","weight":10}
+
+
+    ]
+  }
+}

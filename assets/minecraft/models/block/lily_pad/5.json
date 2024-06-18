@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/lily_pad/lily_pad_template",
+	"textures": {
+		"1": "block/lily_pad/roots",
+		"2": "block/lily_pad/5",
+		"particle": "block/lily_pad/roots"
+	},
+	"elements": [
+		{
+			"from": [0, -1, 0],
+			"to": [16, -1, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#2"}
+			}
+		},
+		{
+			"from": [4, -9, 10],
+			"to": [8, -1, 10],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -5, 10]},
+			"faces": {
+				"north": {"uv": [0, 6, 4, 14], "texture": "#1"},
+				"south": {"uv": [0, 6, 4, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, -9, 8],
+			"to": [6, -1, 12],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -5, 10]},
+			"faces": {
+				"east": {"uv": [0, 6, 4, 14], "texture": "#1"},
+				"west": {"uv": [0, 6, 4, 14], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [7, -5, 7],
+			"color": 0,
+			"children": [1, 2]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/tinted_cross",
+	"ambientocclusion": false,
+	"texture_size": [16, 32],
+	"textures": {
+		"0": "block/dead_bush/tree",
+		"particle": "block/dead_bush/tree"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 32, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [8, 32, 16],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "grass",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"shade": false,
+			"children": [0, 1]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/flower_pots/gladiolus/potted_gladiolus"},
+      {"model": "minecraft:block/flower_pots/gladiolus/potted_gladiolus2"}
+
+
+    ]
+  }
+}

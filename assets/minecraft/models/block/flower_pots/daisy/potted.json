@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/flower_pots/flower_pot_flower_flat",
+	"textures": {
+	  "flower": "minecraft:block/flowers/daisy/pot"
+	}
+  }

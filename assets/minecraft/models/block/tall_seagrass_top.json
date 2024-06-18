@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/template_seagrass",
 	"textures": {
-		"1": "block/tall_sea_plane",
-		"texture": "block/tall_seagrass_top",
-		"particle": "block/tall_sea_plane"
+		"texture": "block/tall_seagrass_top"
 	},
 	"elements": [
 		{
@@ -41,14 +39,6 @@
 			"faces": {
 				"east": {"uv": [0, 0, 16, 16], "texture": "#texture"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#texture"}
-			}
-		},
-		{
-			"from": [-16, 14.3, -16],
-			"to": [32, 14.3, 32],
-			"faces": {
-				"up": {"uv": [0, 0, 12, 12], "texture": "#1"},
-				"down": {"uv": [0, 0, 12, 12], "texture": "#1"}
 			}
 		}
 	]

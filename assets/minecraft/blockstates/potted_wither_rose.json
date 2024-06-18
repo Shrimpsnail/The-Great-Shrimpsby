@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/flower_pots/wither/potted"},
+      {"model": "minecraft:block/flower_pots/wither/potted2"}
+
+
+    ]
+  }
+}

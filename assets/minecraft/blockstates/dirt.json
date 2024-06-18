@@ -3,8 +3,15 @@
     "": [
     
       {"model": "minecraft:block/dirt"},
+      {"model": "minecraft:block/dirt_2"},
       {"model": "minecraft:block/dirt_3"},
-      {"model": "minecraft:block/dirt_4"}
+      {"model": "minecraft:block/dirt_4"},
+      {"model": "minecraft:block/dirt_5"},
+
+      {"model": "minecraft:block/dirt_s1"},
+      {"model": "minecraft:block/dirt_s2"},
+      {"model": "minecraft:block/dirt_s3"},
+      {"model": "minecraft:block/dirt_s4"}
 
 
     ]

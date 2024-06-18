@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle":"minecraft:item/oak_acorn",
+    "layer0": "minecraft:item/oak_acorn"
+  }
+}

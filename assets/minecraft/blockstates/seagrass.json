@@ -1,0 +1,73 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/water_foliage/seagrass"
+      }
+    },
+    {
+      "apply": [
+        {"model": "minecraft:block/water_foliage/algae"}
+      ]
+    },
+
+
+
+    {
+      "apply": [
+        {"model": "minecraft:block/water_foliage/void","weight":6},
+        {"model": "minecraft:block/water_foliage/river_grass_c","weight":1}
+      ]
+    },
+    {
+      "apply": [
+        {"model": "minecraft:block/water_foliage/void","weight":4},
+        {"model": "minecraft:block/water_foliage/river_grass_e","weight":1}
+      ]
+    },
+
+
+    {
+      "apply": [
+        {"model": "minecraft:block/water_foliage/void","weight":12},
+        {"model": "minecraft:block/water_foliage/river_grass_c","y":90,"weight":2}
+      ]
+    },
+    {
+      "apply": [
+        {"model": "minecraft:block/water_foliage/void","weight":8},
+        {"model": "minecraft:block/water_foliage/river_grass_e","y":90,"weight":2}
+      ]
+    },
+
+
+    {
+      "apply": [
+        {"model": "minecraft:block/water_foliage/void","weight":18},
+        {"model": "minecraft:block/water_foliage/river_grass_c","y":180,"weight":3}
+      ]
+    },
+    {
+      "apply": [
+        {"model": "minecraft:block/water_foliage/void","weight":12},
+        {"model": "minecraft:block/water_foliage/river_grass_e","y":180,"weight":3}
+      ]
+    },
+
+
+    {
+      "apply": [
+        {"model": "minecraft:block/water_foliage/void","weight":24},
+        {"model": "minecraft:block/water_foliage/river_grass_c","y":270,"weight":4}
+      ]
+    },
+    {
+      "apply": [
+        {"model": "minecraft:block/water_foliage/void","weight":16},
+        {"model": "minecraft:block/water_foliage/river_grass_e","y":270,"weight":4}
+      ]
+    }
+
+    
+  ]
+}

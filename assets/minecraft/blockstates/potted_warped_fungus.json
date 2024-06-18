@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/flower_pots/warped_horn/potted"},
+      {"model": "minecraft:block/flower_pots/warped_horn/potted2"},
+      {"model": "minecraft:block/flower_pots/warped_horn/potted_tall"},
+      {"model": "minecraft:block/flower_pots/warped_horn/potted_tall2"}
+
+
+    ]
+  }
+}

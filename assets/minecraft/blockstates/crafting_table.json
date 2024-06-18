@@ -44,6 +44,39 @@
     {
       "apply": [
         {
+          "model": "minecraft:block/crafting_table_saw",
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_table_saw",
+          "y":90,
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_table_saw",
+          "y":270,
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/crafting_table_saw",
+          "y":180,
+          "weight":1
+      
+        },
+        {
+          "model": "minecraft:block/void",
+          "weight":10
+
+      }
+      ]
+    },
+
+    {
+      "apply": [
+        {
           "model": "minecraft:block/crafting_side_plank",
           "weight":1
       

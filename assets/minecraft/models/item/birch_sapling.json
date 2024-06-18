@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle":"minecraft:item/birch_seedling",
+    "layer0": "minecraft:item/birch_seedling"
+  }
+}

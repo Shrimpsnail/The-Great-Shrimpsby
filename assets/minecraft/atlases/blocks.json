@@ -9,6 +9,11 @@
             "type": "directory",
             "source": "minecraft:optifine/cit",
             "prefix": "minecraft:optifine/cit/"
+        },
+        {
+            "type": "directory",
+            "source": "block_particles",
+            "prefix": "block_particles/"
         }
     ]
 }

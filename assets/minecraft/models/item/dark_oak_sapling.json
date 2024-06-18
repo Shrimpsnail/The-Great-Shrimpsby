@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"particle": "item/dark_oak_acorn",
+		"layer0": "item/dark_oak_acorn"
+	}
+}

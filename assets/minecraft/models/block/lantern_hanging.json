@@ -72,19 +72,6 @@
 			}
 		},
 		{
-			"from": [7, 0, 7],
-			"to": [9, 2, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
-			"faces": {
-				"north": {"uv": [5.5, 0, 6.5, 1], "texture": "#0"},
-				"east": {"uv": [5.5, 0, 6.5, 1], "texture": "#0"},
-				"south": {"uv": [5.5, 0, 6.5, 1], "texture": "#0"},
-				"west": {"uv": [5.5, 0, 6.5, 1], "texture": "#0"},
-				"up": {"uv": [5.5, 0, 6.5, 1], "texture": "#0"},
-				"down": {"uv": [5.5, 0, 6.5, 1], "texture": "#0"}
-			}
-		},
-		{
 			"from": [8, 10, 6.5],
 			"to": [8, 16, 9.5],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 13, 8]},
@@ -294,25 +281,25 @@
 			"name": "basic",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [0, 1, 2, 3, 4, 5, 6]
+			"children": [0, 1, 2, 3, 4, 5]
 		},
 		{
 			"name": "mine",
 			"origin": [0, 0, 0],
 			"color": 0,
 			"children": [
+				6,
 				7,
 				8,
 				9,
 				10,
 				11,
 				12,
-				13,
 				{
 					"name": "group",
 					"origin": [8, 16, 8],
 					"color": 0,
-					"children": [14, 15]
+					"children": [13, 14]
 				}
 			]
 		},
@@ -320,7 +307,7 @@
 			"name": "pillar_japan",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [16, 17, 18, 19, 20, 21]
+			"children": [15, 16, 17, 18, 19, 20]
 		}
 	]
 }

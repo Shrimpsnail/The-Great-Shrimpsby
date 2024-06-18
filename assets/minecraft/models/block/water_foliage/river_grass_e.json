@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/river_grass"
+	},
+	"elements": [
+		{
+			"from": [-2, 8, -8],
+			"to": [14, 24, -8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [6, 28, -8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-2, 8, -8],
+			"to": [14, 24, -8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [6, 28, -8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [8, 16, 8],
+					"color": 0,
+					"children": [0]
+				},
+				{
+					"name": "group",
+					"origin": [8, 16, 8],
+					"color": 0,
+					"children": [1]
+				}
+			]
+		}
+	]
+}

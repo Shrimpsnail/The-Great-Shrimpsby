@@ -1,0 +1,72 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/flowers/sunflower/3",
+		"1": "block/flowers/sunflower/1",
+		"particle": "block/flowers/sunflower/3"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 0],
+			"to": [8, 14, 16],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, -3.5, 8]},
+			"faces": {
+				"east": {"uv": [0, 3.5, 8, 8], "texture": "#0"},
+				"west": {"uv": [0, 1, 8, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 4, 7],
+			"to": [16, 20, 7],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 12, 6.875]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 9, 7.25],
+			"to": [11, 15, 7.25],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 12, 6.875]},
+			"faces": {
+				"north": {"uv": [4.5, 0.5, 7.5, 3.5], "texture": "#1"},
+				"south": {"uv": [4.5, 0.5, 7.5, 3.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 4, 6],
+			"to": [16, 20, 6],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 12, 6.375]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#0"},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [8, 14, 16],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -3.5, 8]},
+			"faces": {
+				"east": {"uv": [0, 1, 8, 8], "texture": "#0"},
+				"west": {"uv": [0, 1, 8, 8], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "flower",
+			"origin": [8, 12.5, 8],
+			"color": 0,
+			"shade": false,
+			"children": [1, 2, 3]
+		},
+		4
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": [
+    
+      {"model": "minecraft:block/flower_pots/dead/flower_pot_dead"},
+      {"model": "minecraft:block/flower_pots/dead/flower_pot_dead2"},
+      {"model": "minecraft:block/flower_pots/dead/flower_pot_bush"},
+      {"model": "minecraft:block/flower_pots/dead/flower_pot_bush2"},
+      {"model": "minecraft:block/flower_pots/dead/flower_pot_succu"},
+      {"model": "minecraft:block/flower_pots/dead/flower_pot_succu2"}
+
+
+
+    ]
+  }
+}

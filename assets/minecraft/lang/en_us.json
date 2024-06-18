@@ -19,6 +19,14 @@
 	"item.minecraft.netherite_sword": "Netherite Greatsword",
 	"item.minecraft.netherite_axe": "Netherite Greataxe",
 
+	"block.minecraft.oak_sapling": "Oak Acorn",
+	"block.minecraft.birch_sapling": "Birch Seedling",
+	"block.minecraft.spruce_sapling": "Spruce Pinecone",
+	"block.minecraft.dark_oak_sapling": "Dark Hazelnut",
+	"block.minecraft.acacia_sapling": "Acacia Seed Pod",
+	"block.minecraft.cherry_sapling": "Willow Branch",
+	"block.minecraft.jungle_sapling": "Jungle Seed Pod",
+
 	"block.minecraft.red_mushroom": "Agaric Mushroom",
 	"block.minecraft.brown_mushroom": "Wood Mushroom",
 	"block.minecraft.crimson_fungus": "Crimson Morel",
@@ -35,7 +43,7 @@
 	"block.minecraft.brewing_stand": "Alquemy Table",
 	"subtitles.block.brewing_stand.brew": "Alquemy Table bubbles",
 	
-	"upgrade.minecraft.netherite_upgrade": "Superheated Whetstone",
+	"item.minecraft.netherite_upgrade_smithing_template": "Superheated Whetstone",
 
     
 	"block.minecraft.oxeye_daisy": "Daisies",
@@ -57,7 +65,6 @@
 	"block.minecraft.cherry_log": "Willow Log",
 	"block.minecraft.cherry_planks": "Willow Planks",
 	"block.minecraft.cherry_pressure_plate": "Willow Pressure Plate",
-	"block.minecraft.cherry_sapling": "Willow Sapling",
 	"block.minecraft.cherry_sign": "Willow Sign",
 	"block.minecraft.cherry_slab": "Willow Slab",
 	"block.minecraft.cherry_stairs": "Willow Stairs",

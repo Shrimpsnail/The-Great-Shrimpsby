@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "half=upper": [
+      {"model": "minecraft:block/flowers/peony/1"},
+      {"model": "minecraft:block/flowers/peony/2"},
+      {"model": "minecraft:block/flowers/peony/3"},
+      {"model": "minecraft:block/flowers/peony/4"},
+
+      {"model": "minecraft:block/flowers/peony/1","y":90},
+      {"model": "minecraft:block/flowers/peony/2","y":90},
+      {"model": "minecraft:block/flowers/peony/3","y":90},
+      {"model": "minecraft:block/flowers/peony/4","y":90},
+
+      {"model": "minecraft:block/flowers/peony/1","y":180},
+      {"model": "minecraft:block/flowers/peony/2","y":180},
+      {"model": "minecraft:block/flowers/peony/3","y":180},
+      {"model": "minecraft:block/flowers/peony/4","y":180},
+
+      {"model": "minecraft:block/flowers/peony/1","y":270},
+      {"model": "minecraft:block/flowers/peony/2","y":270},
+      {"model": "minecraft:block/flowers/peony/3","y":270},
+      {"model": "minecraft:block/flowers/peony/4","y":270},
+
+
+      {"model": "minecraft:block/flowers/peony/1p1"},
+      {"model": "minecraft:block/flowers/peony/2p1"},
+      {"model": "minecraft:block/flowers/peony/3p1"},
+      {"model": "minecraft:block/flowers/peony/4p1"},
+
+      {"model": "minecraft:block/flowers/peony/1p1","y":90},
+      {"model": "minecraft:block/flowers/peony/2p1","y":90},
+      {"model": "minecraft:block/flowers/peony/3p1","y":90},
+      {"model": "minecraft:block/flowers/peony/4p1","y":90},
+
+      {"model": "minecraft:block/flowers/peony/1p1","y":180},
+      {"model": "minecraft:block/flowers/peony/2p1","y":180},
+      {"model": "minecraft:block/flowers/peony/3p1","y":180},
+      {"model": "minecraft:block/flowers/peony/4p1","y":180},
+
+      {"model": "minecraft:block/flowers/peony/1p1","y":270},
+      {"model": "minecraft:block/flowers/peony/2p1","y":270},
+      {"model": "minecraft:block/flowers/peony/3p1","y":270},
+      {"model": "minecraft:block/flowers/peony/4p1","y":270}
+  ],
+    "half=lower": {
+      "model": "minecraft:block/void"
+    }
+  }
+}
