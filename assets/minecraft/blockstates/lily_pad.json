@@ -1,6 +1,9 @@
 {
-  "variants": {
-    "": [
+  "multipart": [
+
+    {
+      "apply": [
+
       {"model": "minecraft:block/lily_pad/1","weight": 5},
       {"model": "minecraft:block/lily_pad/1","y": 90,"weight": 5},
       {"model": "minecraft:block/lily_pad/1","y": 180,"weight": 5},
@@ -49,13 +52,39 @@
       {"model": "minecraft:block/lily_pad/10","weight": 5},
       {"model": "minecraft:block/lily_pad/10","y": 90,"weight": 5},
       {"model": "minecraft:block/lily_pad/10","y": 180,"weight": 5},
-      {"model": "minecraft:block/lily_pad/10","y": 270,"weight": 5},
+      {"model": "minecraft:block/lily_pad/10","y": 270,"weight": 5}
 
+      ]
+    },
+
+    {
+      "apply": [
+
+      {"model": "minecraft:block/lily_pad/seeds","weight": 5},
+      {"model": "minecraft:block/lily_pad/seeds","y": 90,"weight": 5},
+      {"model": "minecraft:block/lily_pad/seeds","y": 180,"weight": 5},
+      {"model": "minecraft:block/lily_pad/seeds","y": 270,"weight": 5},
       
-      {"model": "minecraft:block/lily_pad/large_lily1","weight": 3},
-      {"model": "minecraft:block/lily_pad/large_lily_snip1","weight": 3},
-      {"model": "minecraft:block/lily_pad/large_lily2","weight": 3},
-      {"model": "minecraft:block/lily_pad/large_lily_snip2","weight": 3}
-    ]
-  }
+      {"model": "minecraft:block/lily_pad/flower","weight": 5},
+      {"model": "minecraft:block/lily_pad/flower","y": 90,"weight": 5},
+      {"model": "minecraft:block/lily_pad/flower","y": 180,"weight": 5},
+      {"model": "minecraft:block/lily_pad/flower","y": 270,"weight": 5},
+      
+      {"model": "minecraft:block/lily_pad/flower2","weight": 5},
+      {"model": "minecraft:block/lily_pad/flower2","y": 90,"weight": 5},
+      {"model": "minecraft:block/lily_pad/flower2","y": 180,"weight": 5},
+      {"model": "minecraft:block/lily_pad/flower2","y": 270,"weight": 5},
+      
+      {"model": "minecraft:block/lily_pad/flower3","weight": 5},
+      {"model": "minecraft:block/lily_pad/flower3","y": 90,"weight": 5},
+      {"model": "minecraft:block/lily_pad/flower3","y": 180,"weight": 5},
+      {"model": "minecraft:block/lily_pad/flower3","y": 270,"weight": 5},
+
+
+      {"model": "minecraft:block/void","weight": 500}
+
+
+      ]
+    }
+  ]
 }

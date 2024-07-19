@@ -1,15 +1,27 @@
 {
 	"container.crafting": "",
 	"container.inventory": "",
-	"container.furnace": "",
+	"container.furnace": "§f\uE999\uE999\uE999\uE999\uE996\uE995\uE999\uE904",
 	"container.repair": "",
 	"container.chest": "",
 	"container.chestDouble": "",
+	"container.hopper": "",
+	"container.barrel":                 "§f\uE999\uE900",
+	"container.enchant":       "§f\uE999\uE999\uE999\uE999\uE999\uE995\uE995\uE903",
+	
+	"entity.minecraft.chest_minecart":	"§f\uE999\uE999\uE998\uE901",
+	"entity.minecraft.hopper_minecart":	"§f\uE999\uE999\uE999\uE997\uE902",
+
 
 	"gui.recipebook.search_hint": "§9Search...",
 
 	"item.minecraft.enchanted_golden_apple": "Magical Dragon Fruit",
 	"item.minecraft.nether_wart": "Soul",
+	"item.minecraft.egg": "Chicken Egg",
+	"item.minecraft.ghast_tear": "Ichor Fuel",
+	"item.minecraft.netherite_upgrade_smithing_template": "Superheated Whetstone",
+	"item.minecraft.netherite_scrap": "Ancient Plating",
+	"item.minecraft.netherite_ingot": "Netherote Alloy",
 
 	"item.minecraft.wooden_sword": "Wooden Club",
 	"item.minecraft.wooden_pickaxe": "Wooden Hammer",
@@ -18,6 +30,8 @@
 	"item.minecraft.stone_axe": "Stone Hatchet",
 	"item.minecraft.netherite_sword": "Netherite Greatsword",
 	"item.minecraft.netherite_axe": "Netherite Greataxe",
+
+
 
 	"block.minecraft.oak_sapling": "Oak Acorn",
 	"block.minecraft.birch_sapling": "Birch Seedling",
@@ -32,8 +46,15 @@
 	"block.minecraft.crimson_fungus": "Crimson Morel",
 	"block.minecraft.warped_fungus": "Warped Cagehorn",
 
-	"item.minecraft.egg": "Chicken Egg",
-	"item.minecraft.ghast_tear": "Ichor Fuel",
+	"block.minecraft.oxeye_daisy": "Daisies",
+	"block.minecraft.allium": "Lavender",
+	"block.minecraft.cornflower": "Blue Pansy",
+	"block.minecraft.orange_tulip": "Orange Windflower",
+	"block.minecraft.pink_tulip": "Pink Gladiolus",
+	"block.minecraft.red_tulip": "Red Pansy",
+	"block.minecraft.white_tulip": "White Rose",
+
+
 
   	"entity.minecraft.trader_llama": "Musk Ox",
 	"item.minecraft.trader_llama_spawn_egg": "Musk Ox Spawn Egg",
@@ -42,17 +63,7 @@
 
 	"block.minecraft.brewing_stand": "Alquemy Table",
 	"subtitles.block.brewing_stand.brew": "Alquemy Table bubbles",
-	
-	"item.minecraft.netherite_upgrade_smithing_template": "Superheated Whetstone",
 
-    
-	"block.minecraft.oxeye_daisy": "Daisies",
-	"block.minecraft.allium": "Lavender",
-	"block.minecraft.cornflower": "Blue Pansy",
-	"block.minecraft.orange_tulip": "Orange Windflower",
-	"block.minecraft.pink_tulip": "Pink Gladiolus",
-	"block.minecraft.red_tulip": "Red Pansy",
-	"block.minecraft.white_tulip": "White Rose",
 
 
 	"biome.minecraft.cherry_grove": "Willow Grove",

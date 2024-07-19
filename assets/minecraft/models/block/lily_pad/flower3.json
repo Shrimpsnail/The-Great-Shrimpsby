@@ -1,0 +1,105 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/lily_pad/lily_pad_template",
+	"textures": {
+		"1": "block/lily_pad/roots",
+		"2": "block/lily_pad/xtra",
+		"particle": "block/lily_pad/roots"
+	},
+	"elements": [
+		{
+			"from": [0.5, 6, 1.5],
+			"to": [5.5, 6, 6.5],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 6, 1.5]},
+			"faces": {
+				"up": {"uv": [11, 10, 16, 15], "texture": "#2"},
+				"down": {"uv": [11, 10, 16, 15], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0.5, 5, 4],
+			"to": [5.5, 9, 4],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [3, 7, 4]},
+			"faces": {
+				"north": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"south": {"uv": [6, 8, 11, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0.5, 5, 4],
+			"to": [5.5, 9, 4],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [3, 7, 4]},
+			"faces": {
+				"north": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"south": {"uv": [6, 8, 11, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [3, -2, 3],
+			"to": [3, 5, 5],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, -2, 4]},
+			"faces": {
+				"east": {"uv": [3, 9, 5, 16], "texture": "#2"},
+				"west": {"uv": [3, 9, 5, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [1, -6, 4],
+			"to": [5, -2, 4],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, -6, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, -6, 2],
+			"to": [3, -2, 6],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, -6, 4]},
+			"faces": {
+				"east": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, -2, 4],
+			"to": [4, 5, 4],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, -2, 4]},
+			"faces": {
+				"north": {"uv": [3, 9, 5, 16], "texture": "#2"},
+				"south": {"uv": [3, 9, 5, 16], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"shade": false,
+			"children": [
+				{
+					"name": "group",
+					"origin": [8, -1, 8],
+					"color": 0,
+					"shade": false,
+					"children": [0, 1, 2]
+				},
+				{
+					"name": "group",
+					"origin": [8, -1, 8],
+					"color": 0,
+					"shade": false,
+					"children": [3, 4, 5, 6]
+				}
+			]
+		}
+	]
+}

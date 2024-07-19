@@ -1,0 +1,4 @@
+{
+   "targets": ["minecraft:warped_wart_block", "minecraft:nether_wart_block","minecraft:enchanting_table","minecraft:command_block","minecraft:chain_command_block","minecraft:repeating_command_block","minecraft:crafting_table"],
+   "render_type": "cutout"
+}

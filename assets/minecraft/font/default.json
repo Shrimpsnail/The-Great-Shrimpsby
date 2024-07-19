@@ -1,0 +1,68 @@
+{
+    "providers": [
+    {
+        "type": "space",
+        "advances": {
+            "\uE999": -8
+        }
+    },
+    {
+        "type": "space",
+        "advances": {
+            "\uE998": 1
+        }
+    },
+    {
+        "type": "space",
+        "advances": {
+            "\uE995": -1
+        }
+    },
+    {
+        "type": "space",
+        "advances": {
+            "\uE997": 4
+        }
+    },
+    {
+        "type": "space",
+        "advances": {
+            "\uE996": -4
+        }
+    },
+
+
+
+	{ 
+        "type": "bitmap",
+        "file": "minecraft:gui/container/barrel.png",
+        "height": 83, "ascent": 14,
+        "chars": ["\uE900"]
+    },
+    { 
+        "type": "bitmap",
+        "file": "minecraft:gui/container/chest_minecart.png",
+        "height": 96, "ascent": 14,
+        "chars": ["\uE901"]
+    },
+    { 
+        "type": "bitmap",
+        "file": "minecraft:gui/container/hopper_minecart.png",
+        "height": 68, "ascent": 14,
+        "chars": ["\uE902"]
+    },
+    { 
+        "type": "bitmap",
+        "file": "minecraft:gui/container/enchanting_table_corner.png",
+        "height": 125, "ascent": 14,
+        "chars": ["\uE903"]
+    },
+    { 
+        "type": "bitmap",
+        "file": "minecraft:gui/container/furnace_top.png",
+        "height": 18, "ascent": 18,
+        "chars": ["\uE904"]
+    }
+
+    ]
+}

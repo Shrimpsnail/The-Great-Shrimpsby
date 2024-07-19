@@ -1,0 +1,4 @@
+{
+   "targets": ["minecraft:dark_oak_leaves","minecraft:acacia_leaves","minecraft:jungle_leaves"],
+   "colormap": "shrimpsby:foliage"
+}
