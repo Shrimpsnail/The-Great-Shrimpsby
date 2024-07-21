@@ -25,3 +25,5 @@ Credits: [Needs Links]
     Original creeper design inspired by neytirix
  
     Original shulker design inspired by Arkticboi
+
+The Great Shrimpsby © 2024 by Shrimpsnail is licensed under CC BY-NC-SA 4.0 
