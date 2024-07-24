@@ -62,33 +62,6 @@
 	"item.minecraft.horse_spawn_egg": "Rhea Spawn Egg",
 
 	"block.minecraft.brewing_stand": "Alquemy Table",
-	"subtitles.block.brewing_stand.brew": "Alquemy Table bubbles",
-
-
-
-	"biome.minecraft.cherry_grove": "Willow Grove",
-	"block.minecraft.cherry_button": "Willow Button",
-	"block.minecraft.cherry_door": "Willow Door",
-	"block.minecraft.cherry_fence": "Willow Fence",
-	"block.minecraft.cherry_fence_gate": "Willow Fence Gate",
-	"block.minecraft.cherry_hanging_sign": "Willow Hanging Sign",
-	"block.minecraft.cherry_leaves": "Willow Leaves",
-	"block.minecraft.cherry_log": "Willow Log",
-	"block.minecraft.cherry_planks": "Willow Planks",
-	"block.minecraft.cherry_pressure_plate": "Willow Pressure Plate",
-	"block.minecraft.cherry_sign": "Willow Sign",
-	"block.minecraft.cherry_slab": "Willow Slab",
-	"block.minecraft.cherry_stairs": "Willow Stairs",
-	"block.minecraft.cherry_trapdoor": "Willow Trapdoor",
-	"block.minecraft.cherry_wall_hanging_sign": "Willow Wall Hanging Sign",
-	"block.minecraft.cherry_wall_sign": "Willow Wall Sign",
-	"block.minecraft.cherry_wood": "Willow Wood",
-	"block.minecraft.potted_cherry_sapling": "Potted Willow Sapling",
-	"block.minecraft.stripped_cherry_log": "Stripped Willow Log",
-	"block.minecraft.stripped_cherry_wood": "Stripped Willow Wood",
-	"item.minecraft.cherry_boat": "Willow Boat",
-	"item.minecraft.cherry_chest_boat": "Willow Boat with Chest",
-	"block.minecraft.pink_petals": "Golden Petals"
-	
+	"subtitles.block.brewing_stand.brew": "Alquemy Table bubbles"	
 
 }
