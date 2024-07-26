@@ -1,3 +1,15 @@
+The Great Shrimpsby v0.3 - 1.21
+
+- Completely reworked A LOT of foliage
+- Added A LOT of new item textures
+- New enchanting book animations
+- New and reworked immersive GUIs
+- New log textures
+- new cobblestone texture
+- new torch model and item
+- new flowerpots
+
+
 The Great Shrimpsby v0.3 - 1.19.4 
 
    =======| MAJOR
