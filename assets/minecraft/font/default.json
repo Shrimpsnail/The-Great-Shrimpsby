@@ -35,33 +35,47 @@
 
 	{ 
         "type": "bitmap",
-        "file": "minecraft:gui/container/barrel.png",
-        "height": 83, "ascent": 14,
-        "chars": ["\uE900"]
+        "file": "minecraft:gui/container/chest.png",
+        "height": 91, "ascent": 23,
+        "chars": ["\uEC01"]
     },
     { 
         "type": "bitmap",
         "file": "minecraft:gui/container/chest_minecart.png",
-        "height": 96, "ascent": 14,
-        "chars": ["\uE901"]
+        "height": 105, "ascent": 23,
+        "chars": ["\uEC02"]
     },
+    { 
+        "type": "bitmap",
+        "file": "minecraft:gui/container/barrel.png",
+        "height": 83, "ascent": 14,
+        "chars": ["\uEC03"]
+    },
+    { 
+        "type": "bitmap",
+        "file": "minecraft:gui/container/large_chest.png",
+        "height": 158, "ascent": 34,
+        "chars": ["\uEC05"]
+    },
+
+
     { 
         "type": "bitmap",
         "file": "minecraft:gui/container/hopper_minecart.png",
         "height": 68, "ascent": 14,
-        "chars": ["\uE902"]
+        "chars": ["\uEC10"]
     },
     { 
         "type": "bitmap",
         "file": "minecraft:gui/container/enchanting_table_corner.png",
         "height": 125, "ascent": 14,
-        "chars": ["\uE903"]
+        "chars": ["\uEc11"]
     },
     { 
         "type": "bitmap",
-        "file": "minecraft:gui/container/furnace_top.png",
+        "file": "minecraft:gui/container/furnace_hat.png",
         "height": 18, "ascent": 18,
-        "chars": ["\uE904"]
+        "chars": ["\uEc12"]
     }
 
     ]

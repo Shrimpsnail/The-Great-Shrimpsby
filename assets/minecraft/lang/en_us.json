@@ -1,16 +1,16 @@
 {
 	"container.crafting": "",
 	"container.inventory": "",
-	"container.furnace": "§f\uE999\uE999\uE999\uE999\uE996\uE995\uE999\uE904",
+	"container.furnace": "§f\uE999\uE999\uE999\uE999\uE996\uE995\uE999\uEc12",
 	"container.repair": "",
-	"container.chest": "",
-	"container.chestDouble": "",
+	"container.chest": "§f\uE999\uE996\uEc01",
+	"container.chestDouble": "§f\uE999\uE999\uE996\uEc05",
 	"container.hopper": "",
-	"container.barrel":                 "§f\uE999\uE900",
-	"container.enchant":       "§f\uE999\uE999\uE999\uE999\uE999\uE995\uE995\uE903",
+	"container.barrel":                 "§f\uE999\uEc03",
+	"container.enchant":       "§f\uE999\uE999\uE999\uE999\uE999\uE995\uE995\uEc11",
 	
-	"entity.minecraft.chest_minecart":	"§f\uE999\uE999\uE998\uE901",
-	"entity.minecraft.hopper_minecart":	"§f\uE999\uE999\uE999\uE997\uE902",
+	"entity.minecraft.chest_minecart":	"§f\uE999\uE999\uE998\uEc02",
+	"entity.minecraft.hopper_minecart":	"§f\uE999\uE999\uE999\uE997\uEc10",
 
 
 	"gui.recipebook.search_hint": "§9Search...",
