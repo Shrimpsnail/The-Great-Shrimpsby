@@ -1,5 +1,10 @@
 {
   "variants": {
-    "persistent=false,distance=7": {"model": "minecraft:block/dead_oak_leaves"}
+    "persistent=false,distance=7": {"model": "minecraft:block/dead_oak_leaves"},
+    "":[
+
+      {"model": "minecraft:block/oak_leaves","weights":9},
+      {"model": "minecraft:block/oak_leaves_big","weights":1}
+    ]
   }
 }
